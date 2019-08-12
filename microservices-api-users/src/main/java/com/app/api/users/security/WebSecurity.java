@@ -32,7 +32,7 @@ public class WebSecurity extends WebSecurityConfigurerAdapter {
     protected void configure(HttpSecurity http) throws Exception {
 
         http.csrf().disable();
-        http.authorizeRequests().antMatchers("/**").hasIpAddress(environment.getProperty("gateway.ip"))
+        http.authorizeRequests().antMatchers("/**").permitAll()//hasIpAddress(environment.getProperty("gateway.ip"))
         .and().addFilter(getAuthenticationFilter());
 
         // To make H2 console able to run with Spring Security
