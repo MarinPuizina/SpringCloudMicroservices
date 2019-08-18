@@ -9,6 +9,7 @@ import org.springframework.security.config.annotation.authentication.builders.Au
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
+import org.springframework.security.config.http.SessionCreationPolicy;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
 @Configuration
@@ -34,6 +35,8 @@ public class WebSecurity extends WebSecurityConfigurerAdapter {
         http.csrf().disable();
         http.authorizeRequests().antMatchers("/**").permitAll()//hasIpAddress(environment.getProperty("gateway.ip"))
         .and().addFilter(getAuthenticationFilter());
+
+        http.sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS);
 
         // To make H2 console able to run with Spring Security
         http.headers().frameOptions().disable();
