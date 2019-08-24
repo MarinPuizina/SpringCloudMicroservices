@@ -2,7 +2,7 @@ package com.app.api.users.security;
 
 import com.app.api.users.service.UsersService;
 import com.app.api.users.shared.UserDto;
-import com.app.api.users.ui.controllers.model.LoginRequestModel;
+import com.app.api.users.ui.model.LoginRequestModel;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;

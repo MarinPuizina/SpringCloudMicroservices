@@ -2,8 +2,9 @@ package com.app.api.users.ui.controllers;
 
 import com.app.api.users.service.UsersService;
 import com.app.api.users.shared.UserDto;
-import com.app.api.users.ui.controllers.model.CreateUserRequestModel;
-import com.app.api.users.ui.controllers.model.CreateUserResponseModel;
+import com.app.api.users.ui.model.CreateUserRequestModel;
+import com.app.api.users.ui.model.CreateUserResponseModel;
+import com.app.api.users.ui.model.UserResponseModel;
 import org.modelmapper.ModelMapper;
 import org.modelmapper.convention.MatchingStrategies;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -44,6 +45,13 @@ public class UsersController {
         CreateUserResponseModel returnValue = modelMapper.map(createdUser, CreateUserResponseModel.class);
 
         return ResponseEntity.status(HttpStatus.CREATED).body(returnValue);
+    }
+
+    @GetMapping(value = "/{userId}", produces = { MediaType.APPLICATION_XML_VALUE, MediaType.APPLICATION_JSON_VALUE})
+    public ResponseEntity<UserResponseModel> getUser(@PathVariable("userId") String userId) {
+
+
+        return ResponseEntity.status(HttpStatus.OK).body(returnvalue);
     }
 
 }

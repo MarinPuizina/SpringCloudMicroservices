@@ -1,4 +1,4 @@
-package com.app.api.users.ui.controllers.model;
+package com.app.api.users.ui.model;
 
 public class CreateUserResponseModel {
 
