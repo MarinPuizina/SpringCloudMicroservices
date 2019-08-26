@@ -96,7 +96,8 @@ public class UsersServiceImpl implements UsersService {
         String albumsUrl = String.format(environment.getProperty("albums.url"), userId);
 
         // When we are calling exchange method it will send the http request method on given url
-        ResponseEntity<List<AlbumResponseModel>> albumListResponse = restTemplate.exchange(albumsUrl, HttpMethod.GET, null, new ParameterizedTypeReference<List<AlbumResponseModel>>() {
+        ResponseEntity<List<AlbumResponseModel>> albumListResponse =
+                restTemplate.exchange(albumsUrl, HttpMethod.GET, null, new ParameterizedTypeReference<List<AlbumResponseModel>>() {
 
         });
 
