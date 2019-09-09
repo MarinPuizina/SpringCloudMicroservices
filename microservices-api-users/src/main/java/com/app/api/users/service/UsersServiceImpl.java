@@ -1,5 +1,6 @@
 package com.app.api.users.service;
 
+import com.app.api.users.data.AlbumsServiceClient;
 import com.app.api.users.data.UserEntity;
 import com.app.api.users.data.UsersRepository;
 import com.app.api.users.shared.UserDto;
@@ -27,18 +28,19 @@ public class UsersServiceImpl implements UsersService {
 
     UsersRepository usersRepository;
     BCryptPasswordEncoder bCryptPasswordEncoder;
-    RestTemplate restTemplate;
+    //RestTemplate restTemplate;
+    AlbumsServiceClient albumsServiceClient;
     Environment environment;
 
     @Autowired
     public UsersServiceImpl(UsersRepository usersRepository,
                             BCryptPasswordEncoder bCryptPasswordEncoder,
-                            RestTemplate restTemplate,
+                            AlbumsServiceClient albumsServiceClient,
                             Environment environment) {
 
         this.usersRepository = usersRepository;
         this.bCryptPasswordEncoder = bCryptPasswordEncoder;
-        this.restTemplate = restTemplate;
+        this.albumsServiceClient = albumsServiceClient;
         this.environment = environment;
 
     }
@@ -96,12 +98,14 @@ public class UsersServiceImpl implements UsersService {
         String albumsUrl = String.format(environment.getProperty("albums.url"), userId);
 
         // When we are calling exchange method it will send the http request method on given url
-        ResponseEntity<List<AlbumResponseModel>> albumListResponse =
+        /*ResponseEntity<List<AlbumResponseModel>> albumListResponse =
                 restTemplate.exchange(albumsUrl, HttpMethod.GET, null, new ParameterizedTypeReference<List<AlbumResponseModel>>() {
 
         });
 
-        List<AlbumResponseModel> albumsList = albumListResponse.getBody();
+        List<AlbumResponseModel> albumsList = albumListResponse.getBody();*/
+
+        List<AlbumResponseModel> albumsList = albumsServiceClient.getAlbums(userId);
 
         userDto.setAlbums(albumsList);
 
