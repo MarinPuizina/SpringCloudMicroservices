@@ -1,5 +1,7 @@
 package com.app.api.users;
 
+import com.app.api.users.shared.FeignErrorDecoder;
+import feign.Logger;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
@@ -31,5 +33,15 @@ public class MicroservicesApiUsersApplication {
 
 		return new RestTemplate();
 	}
+
+	@Bean
+	Logger.Level feignLoggerLevel() {
+		return Logger.Level.FULL;
+	}
+
+	/*@Bean
+	public FeignErrorDecoder feignErrorDecoder() {
+		return new FeignErrorDecoder();
+	}*/
 
 }

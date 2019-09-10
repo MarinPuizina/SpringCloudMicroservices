@@ -5,8 +5,11 @@ import com.app.api.users.data.UserEntity;
 import com.app.api.users.data.UsersRepository;
 import com.app.api.users.shared.UserDto;
 import com.app.api.users.ui.model.AlbumResponseModel;
+import feign.FeignException;
 import org.modelmapper.ModelMapper;
 import org.modelmapper.convention.MatchingStrategies;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.ParameterizedTypeReference;
 import org.springframework.core.env.Environment;
@@ -25,6 +28,8 @@ import java.util.UUID;
 
 @Service
 public class UsersServiceImpl implements UsersService {
+
+    Logger logger = LoggerFactory.getLogger(this.getClass());
 
     UsersRepository usersRepository;
     BCryptPasswordEncoder bCryptPasswordEncoder;
