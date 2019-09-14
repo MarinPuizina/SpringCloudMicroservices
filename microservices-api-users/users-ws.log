@@ -1,0 +1,809 @@
+2019-09-14 11:17:39.836  INFO [users-ws,,,] 14588 --- [restartedMain] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8012
+2019-09-14 11:17:40.929  INFO [users-ws,,,] 14588 --- [restartedMain] c.c.c.ConfigServicePropertySourceLocator : Connect Timeout Exception on Url - http://localhost:8012. Will be trying the next url if available
+2019-09-14 11:17:40.930  WARN [users-ws,,,] 14588 --- [restartedMain] c.c.c.ConfigServicePropertySourceLocator : Could not locate PropertySource: I/O error on GET request for "http://localhost:8012/users-ws/default": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2019-09-14 11:17:40.933  INFO [users-ws,,,] 14588 --- [restartedMain] c.a.a.u.MicroservicesApiUsersApplication : No active profile set, falling back to default profiles: default
+2019-09-14 11:17:41.908  WARN [users-ws,,,] 14588 --- [restartedMain] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'bus-env' contains invalid characters, please migrate to a valid format.
+2019-09-14 11:17:42.065  INFO [users-ws,,,] 14588 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-14 11:17:42.243  INFO [users-ws,,,] 14588 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 171ms. Found 1 repository interfaces.
+2019-09-14 11:17:42.334  WARN [users-ws,,,] 14588 --- [restartedMain] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'bus-refresh' contains invalid characters, please migrate to a valid format.
+2019-09-14 11:17:42.378  WARN [users-ws,,,] 14588 --- [restartedMain] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-09-14 11:17:42.438  WARN [users-ws,,,] 14588 --- [restartedMain] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2019-09-14 11:17:42.765  INFO [users-ws,,,] 14588 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=46459284-32c4-37d4-9d5d-52a0f7fec9d7
+2019-09-14 11:17:42.789  INFO [users-ws,,,] 14588 --- [restartedMain] faultConfiguringBeanFactoryPostProcessor : No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2019-09-14 11:17:42.795  INFO [users-ws,,,] 14588 --- [restartedMain] faultConfiguringBeanFactoryPostProcessor : No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+2019-09-14 11:17:42.800  INFO [users-ws,,,] 14588 --- [restartedMain] faultConfiguringBeanFactoryPostProcessor : No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2019-09-14 11:17:43.115  INFO [users-ws,,,] 14588 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$579341a0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-14 11:17:43.154  INFO [users-ws,,,] 14588 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-14 11:17:43.200  INFO [users-ws,,,] 14588 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration$$EnhancerBySpringCGLIB$$c284fccf] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-14 11:17:43.219  INFO [users-ws,,,] 14588 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.integration.IntegrationAutoConfiguration$IntegrationJmxConfiguration' of type [org.springframework.boot.autoconfigure.integration.IntegrationAutoConfiguration$IntegrationJmxConfiguration$$EnhancerBySpringCGLIB$$9e1707ef] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-14 11:17:43.233  INFO [users-ws,,,] 14588 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration' of type [org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration$$EnhancerBySpringCGLIB$$d6feb0bc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-14 11:17:43.242  INFO [users-ws,,,] 14588 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'mbeanServer' of type [com.sun.jmx.mbeanserver.JmxMBeanServer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-14 11:17:43.310  INFO [users-ws,,,] 14588 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$73ad449d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-14 11:17:44.299  INFO [users-ws,,,] 14588 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2019-09-14 11:17:44.326  INFO [users-ws,,,] 14588 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-09-14 11:17:44.327  INFO [users-ws,,,] 14588 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-09-14 11:17:44.471  INFO [users-ws,,,] 14588 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-09-14 11:17:44.471  INFO [users-ws,,,] 14588 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3524 ms
+2019-09-14 11:17:44.638  WARN [users-ws,,,] 14588 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-09-14 11:17:44.638  INFO [users-ws,,,] 14588 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-09-14 11:17:44.654  INFO [users-ws,,,] 14588 --- [restartedMain] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@c47d414
+2019-09-14 11:17:46.828  INFO [users-ws,,,] 14588 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2019-09-14 11:17:47.339  INFO [users-ws,,,] 14588 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2019-09-14 11:17:47.893  INFO [users-ws,,,] 14588 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-09-14 11:17:48.377  INFO [users-ws,,,] 14588 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-09-14 11:17:48.433  INFO [users-ws,,,] 14588 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-09-14 11:17:48.514  INFO [users-ws,,,] 14588 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2019-09-14 11:17:48.516  INFO [users-ws,,,] 14588 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-09-14 11:17:48.663  INFO [users-ws,,,] 14588 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-09-14 11:17:48.810  INFO [users-ws,,,] 14588 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-09-14 11:17:49.440  INFO [users-ws,,,] 14588 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-09-14 11:17:49.484  INFO [users-ws,,,] 14588 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-14 11:17:50.388  INFO [users-ws,,,] 14588 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@60ba0bc4, org.springframework.security.web.context.SecurityContextPersistenceFilter@1f739ceb, org.springframework.security.web.header.HeaderWriterFilter@1436ac96, org.springframework.security.web.authentication.logout.LogoutFilter@40b0194f, com.app.api.users.security.AuthenticationFilter@34b6183e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2cfccdbc, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@37a19ae4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@51e106d5, org.springframework.security.web.session.SessionManagementFilter@15e0d343, org.springframework.security.web.access.ExceptionTranslationFilter@1763ab9, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2f067518]
+2019-09-14 11:17:50.440  WARN [users-ws,,,] 14588 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-09-14 11:17:50.442  INFO [users-ws,,,] 14588 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-09-14 11:17:50.665  INFO [users-ws,,,] 14588 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-14 11:17:50.729  WARN [users-ws,,,] 14588 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-09-14 11:17:51.386  INFO [users-ws,,,] 14588 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2019-09-14 11:17:52.668  INFO [users-ws,,,] 14588 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2019-09-14 11:17:53.076  INFO [users-ws,,,] 14588 --- [restartedMain] o.s.c.s.m.DirectWithAttributesChannel    : Channel 'application-1.springCloudBusInput' has 1 subscriber(s).
+2019-09-14 11:17:53.196  INFO [users-ws,,,] 14588 --- [restartedMain] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageChannel springCloudBusOutput
+2019-09-14 11:17:53.249  INFO [users-ws,,,] 14588 --- [restartedMain] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageChannel springCloudBusInput
+2019-09-14 11:17:53.257  INFO [users-ws,,,] 14588 --- [restartedMain] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageChannel nullChannel
+2019-09-14 11:17:53.267  INFO [users-ws,,,] 14588 --- [restartedMain] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageChannel errorChannel
+2019-09-14 11:17:53.305  INFO [users-ws,,,] 14588 --- [restartedMain] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageHandler errorLogger
+2019-09-14 11:17:53.321  INFO [users-ws,,,] 14588 --- [restartedMain] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageHandler org.springframework.cloud.stream.binding.StreamListenerMessageHandler@35fc28d3
+2019-09-14 11:17:53.395  INFO [users-ws,,,] 14588 --- [restartedMain] o.s.i.endpoint.EventDrivenConsumer       : Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2019-09-14 11:17:53.396  INFO [users-ws,,,] 14588 --- [restartedMain] o.s.i.channel.PublishSubscribeChannel    : Channel 'application-1.errorChannel' has 1 subscriber(s).
+2019-09-14 11:17:53.398  INFO [users-ws,,,] 14588 --- [restartedMain] o.s.i.endpoint.EventDrivenConsumer       : started _org.springframework.integration.errorLogger
+2019-09-14 11:17:54.556  INFO [users-ws,,,] 14588 --- [restartedMain] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8012
+2019-09-14 11:17:55.573  INFO [users-ws,,,] 14588 --- [restartedMain] c.c.c.ConfigServicePropertySourceLocator : Connect Timeout Exception on Url - http://localhost:8012. Will be trying the next url if available
+2019-09-14 11:17:55.574  WARN [users-ws,,,] 14588 --- [restartedMain] c.c.c.ConfigServicePropertySourceLocator : Could not locate PropertySource: I/O error on GET request for "http://localhost:8012/users-ws/default": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2019-09-14 11:17:55.757  INFO [users-ws,,,] 14588 --- [restartedMain] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2019-09-14 11:17:55.829  INFO [users-ws,,,] 14588 --- [restartedMain] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#50371494:0/SimpleConnection@4d08415f [delegate=amqp://marin@127.0.0.1:5672/, localPort= 61192]
+2019-09-14 11:17:55.867  INFO [users-ws,,,] 14588 --- [restartedMain] o.s.c.s.m.DirectWithAttributesChannel    : Channel 'application-1.springCloudBusOutput' has 1 subscriber(s).
+2019-09-14 11:17:55.899  INFO [users-ws,,,] 14588 --- [restartedMain] c.s.b.r.p.RabbitExchangeQueueProvisioner : declaring queue for inbound: springCloudBus.anonymous.wGzNKB_eR6Wa8-peucoY8A, bound to: springCloudBus
+2019-09-14 11:17:55.923  INFO [users-ws,,,] 14588 --- [restartedMain] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageChannel springCloudBus.anonymous.wGzNKB_eR6Wa8-peucoY8A.errors
+2019-09-14 11:17:55.954  INFO [users-ws,,,] 14588 --- [restartedMain] o.s.c.stream.binder.BinderErrorChannel   : Channel 'application-1.springCloudBus.anonymous.wGzNKB_eR6Wa8-peucoY8A.errors' has 1 subscriber(s).
+2019-09-14 11:17:55.954  INFO [users-ws,,,] 14588 --- [restartedMain] o.s.c.stream.binder.BinderErrorChannel   : Channel 'application-1.springCloudBus.anonymous.wGzNKB_eR6Wa8-peucoY8A.errors' has 2 subscriber(s).
+2019-09-14 11:17:55.982  INFO [users-ws,,,] 14588 --- [restartedMain] o.s.i.a.i.AmqpInboundChannelAdapter      : started inbound.springCloudBus.anonymous.wGzNKB_eR6Wa8-peucoY8A
+2019-09-14 11:17:56.032  INFO [users-ws,,,] 14588 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 61193 (http) with context path ''
+2019-09-14 11:17:56.034  INFO [users-ws,,,] 14588 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 61193
+2019-09-14 11:17:56.041  INFO [users-ws,,,] 14588 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2019-09-14 11:17:56.085  INFO [users-ws,,,] 14588 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2019-09-14 11:17:56.149  INFO [users-ws,,,] 14588 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-09-14 11:17:56.151  INFO [users-ws,,,] 14588 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-09-14 11:17:56.268  INFO [users-ws,,,] 14588 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-09-14 11:17:56.268  INFO [users-ws,,,] 14588 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-09-14 11:17:56.431  INFO [users-ws,,,] 14588 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-09-14 11:17:56.529  INFO [users-ws,,,] 14588 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2019-09-14 11:17:56.529  INFO [users-ws,,,] 14588 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2019-09-14 11:17:56.529  INFO [users-ws,,,] 14588 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2019-09-14 11:17:56.529  INFO [users-ws,,,] 14588 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2019-09-14 11:17:56.530  INFO [users-ws,,,] 14588 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2019-09-14 11:17:56.530  INFO [users-ws,,,] 14588 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2019-09-14 11:17:56.530  INFO [users-ws,,,] 14588 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2019-09-14 11:17:58.593 ERROR [users-ws,,,] 14588 --- [restartedMain] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8010/eureka/}
+
+com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused: connect
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27) ~[eureka-client-1.9.12.jar:1.9.12]
+	at com.sun.jersey.api.client.Client.handle(Client.java:652) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource$Builder.get(WebResource.java:509) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.getApplicationsInternal(AbstractJerseyEurekaHttpClient.java:194) ~[eureka-client-1.9.12.jar:1.9.12]
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.getApplications(AbstractJerseyEurekaHttpClient.java:165) ~[eureka-client-1.9.12.jar:1.9.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137) [eureka-client-1.9.12.jar:1.9.12]
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73) ~[eureka-client-1.9.12.jar:1.9.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134) [eureka-client-1.9.12.jar:1.9.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137) [eureka-client-1.9.12.jar:1.9.12]
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:118) ~[eureka-client-1.9.12.jar:1.9.12]
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:79) ~[eureka-client-1.9.12.jar:1.9.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134) [eureka-client-1.9.12.jar:1.9.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137) [eureka-client-1.9.12.jar:1.9.12]
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120) [eureka-client-1.9.12.jar:1.9.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134) [eureka-client-1.9.12.jar:1.9.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137) [eureka-client-1.9.12.jar:1.9.12]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) [eureka-client-1.9.12.jar:1.9.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134) [eureka-client-1.9.12.jar:1.9.12]
+	at com.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry(DiscoveryClient.java:1069) [eureka-client-1.9.12.jar:1.9.12]
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:983) [eureka-client-1.9.12.jar:1.9.12]
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:430) [eureka-client-1.9.12.jar:1.9.12]
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:276) [eureka-client-1.9.12.jar:1.9.12]
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:272) [eureka-client-1.9.12.jar:1.9.12]
+	at org.springframework.cloud.netflix.eureka.CloudEurekaClient.<init>(CloudEurekaClient.java:67) [spring-cloud-netflix-eureka-client-2.1.2.RELEASE.jar:2.1.2.RELEASE]
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration.eurekaClient(EurekaClientAutoConfiguration.java:330) [spring-cloud-netflix-eureka-client-2.1.2.RELEASE.jar:2.1.2.RELEASE]
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$7b163dbc.CGLIB$eurekaClient$2(<generated>) [spring-cloud-netflix-eureka-client-2.1.2.RELEASE.jar:2.1.2.RELEASE]
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$7b163dbc$$FastClassBySpringCGLIB$$72cfcb44.invoke(<generated>) [spring-cloud-netflix-eureka-client-2.1.2.RELEASE.jar:2.1.2.RELEASE]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244) [spring-core-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:363) [spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$7b163dbc.eurekaClient(<generated>) [spring-cloud-netflix-eureka-client-2.1.2.RELEASE.jar:2.1.2.RELEASE]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_172]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_172]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_172]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_172]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) [spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:622) [spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:607) [spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321) [spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160) [spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) [spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) [spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$1(AbstractBeanFactory.java:356) [spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.getBean(GenericScope.java:389) ~[spring-cloud-context-2.1.2.RELEASE.jar:2.1.2.RELEASE]
+	at org.springframework.cloud.context.scope.GenericScope.get(GenericScope.java:186) ~[spring-cloud-context-2.1.2.RELEASE.jar:2.1.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:353) [spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) [spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.aop.target.SimpleBeanTargetSource.getTarget(SimpleBeanTargetSource.java:35) ~[spring-aop-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaRegistration.getTargetObject(EurekaRegistration.java:129) ~[spring-cloud-netflix-eureka-client-2.1.2.RELEASE.jar:2.1.2.RELEASE]
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaRegistration.getEurekaClient(EurekaRegistration.java:117) ~[spring-cloud-netflix-eureka-client-2.1.2.RELEASE.jar:2.1.2.RELEASE]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_172]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_172]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_172]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_172]
+	at org.springframework.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:282) ~[spring-core-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.cloud.context.scope.GenericScope$LockedScopedProxyFactoryBean.invoke(GenericScope.java:499) ~[spring-cloud-context-2.1.2.RELEASE.jar:2.1.2.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688) ~[spring-aop-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaRegistration$$EnhancerBySpringCGLIB$$f995ff0.getEurekaClient(<generated>) ~[spring-cloud-netflix-eureka-client-2.1.2.RELEASE.jar:2.1.2.RELEASE]
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry.maybeInitializeClient(EurekaServiceRegistry.java:57) ~[spring-cloud-netflix-eureka-client-2.1.2.RELEASE.jar:2.1.2.RELEASE]
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry.register(EurekaServiceRegistry.java:38) ~[spring-cloud-netflix-eureka-client-2.1.2.RELEASE.jar:2.1.2.RELEASE]
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration.start(EurekaAutoServiceRegistration.java:83) ~[spring-cloud-netflix-eureka-client-2.1.2.RELEASE.jar:2.1.2.RELEASE]
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration.onApplicationEvent(EurekaAutoServiceRegistration.java:147) ~[spring-cloud-netflix-eureka-client-2.1.2.RELEASE.jar:2.1.2.RELEASE]
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration.onApplicationEvent(EurekaAutoServiceRegistration.java:132) ~[spring-cloud-netflix-eureka-client-2.1.2.RELEASE.jar:2.1.2.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:402) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:359) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:164) ~[spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:552) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140) ~[spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:742) ~[spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:389) ~[spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311) ~[spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1213) ~[spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1202) ~[spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at com.app.api.users.MicroservicesApiUsersApplication.main(MicroservicesApiUsersApplication.java:22) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_172]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_172]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_172]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_172]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[na:1.8.0_172]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85) ~[na:1.8.0_172]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[na:1.8.0_172]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_172]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_172]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[na:1.8.0_172]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_172]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_172]
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121) ~[httpclient-4.5.9.jar:4.5.9]
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180) ~[httpclient-4.5.9.jar:4.5.9]
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144) ~[httpclient-4.5.9.jar:4.5.9]
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134) ~[httpclient-4.5.9.jar:4.5.9]
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:605) ~[httpclient-4.5.9.jar:4.5.9]
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:440) ~[httpclient-4.5.9.jar:4.5.9]
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835) ~[httpclient-4.5.9.jar:4.5.9]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118) ~[httpclient-4.5.9.jar:4.5.9]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56) ~[httpclient-4.5.9.jar:4.5.9]
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	... 85 common frames omitted
+
+2019-09-14 11:17:58.596  WARN [users-ws,,,] 14588 --- [restartedMain] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2019-09-14 11:17:58.597 ERROR [users-ws,,,] 14588 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USERS-WS/users-ws:3366bca8c6808e9e9f7d0a0d75fd73d2 - was unable to refresh its cache! status = Cannot execute request on any known server
+
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-1.9.12.jar:1.9.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134) ~[eureka-client-1.9.12.jar:1.9.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137) ~[eureka-client-1.9.12.jar:1.9.12]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.9.12.jar:1.9.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134) ~[eureka-client-1.9.12.jar:1.9.12]
+	at com.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry(DiscoveryClient.java:1069) [eureka-client-1.9.12.jar:1.9.12]
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:983) [eureka-client-1.9.12.jar:1.9.12]
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:430) [eureka-client-1.9.12.jar:1.9.12]
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:276) [eureka-client-1.9.12.jar:1.9.12]
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:272) [eureka-client-1.9.12.jar:1.9.12]
+	at org.springframework.cloud.netflix.eureka.CloudEurekaClient.<init>(CloudEurekaClient.java:67) [spring-cloud-netflix-eureka-client-2.1.2.RELEASE.jar:2.1.2.RELEASE]
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration.eurekaClient(EurekaClientAutoConfiguration.java:330) [spring-cloud-netflix-eureka-client-2.1.2.RELEASE.jar:2.1.2.RELEASE]
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$7b163dbc.CGLIB$eurekaClient$2(<generated>) [spring-cloud-netflix-eureka-client-2.1.2.RELEASE.jar:2.1.2.RELEASE]
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$7b163dbc$$FastClassBySpringCGLIB$$72cfcb44.invoke(<generated>) [spring-cloud-netflix-eureka-client-2.1.2.RELEASE.jar:2.1.2.RELEASE]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244) [spring-core-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:363) [spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$7b163dbc.eurekaClient(<generated>) [spring-cloud-netflix-eureka-client-2.1.2.RELEASE.jar:2.1.2.RELEASE]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_172]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_172]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_172]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_172]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) [spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:622) [spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:607) [spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321) [spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160) [spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) [spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) [spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$1(AbstractBeanFactory.java:356) [spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.getBean(GenericScope.java:389) ~[spring-cloud-context-2.1.2.RELEASE.jar:2.1.2.RELEASE]
+	at org.springframework.cloud.context.scope.GenericScope.get(GenericScope.java:186) ~[spring-cloud-context-2.1.2.RELEASE.jar:2.1.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:353) [spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) [spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.aop.target.SimpleBeanTargetSource.getTarget(SimpleBeanTargetSource.java:35) ~[spring-aop-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaRegistration.getTargetObject(EurekaRegistration.java:129) ~[spring-cloud-netflix-eureka-client-2.1.2.RELEASE.jar:2.1.2.RELEASE]
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaRegistration.getEurekaClient(EurekaRegistration.java:117) ~[spring-cloud-netflix-eureka-client-2.1.2.RELEASE.jar:2.1.2.RELEASE]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_172]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_172]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_172]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_172]
+	at org.springframework.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:282) ~[spring-core-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.cloud.context.scope.GenericScope$LockedScopedProxyFactoryBean.invoke(GenericScope.java:499) ~[spring-cloud-context-2.1.2.RELEASE.jar:2.1.2.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688) ~[spring-aop-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaRegistration$$EnhancerBySpringCGLIB$$f995ff0.getEurekaClient(<generated>) ~[spring-cloud-netflix-eureka-client-2.1.2.RELEASE.jar:2.1.2.RELEASE]
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry.maybeInitializeClient(EurekaServiceRegistry.java:57) ~[spring-cloud-netflix-eureka-client-2.1.2.RELEASE.jar:2.1.2.RELEASE]
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry.register(EurekaServiceRegistry.java:38) ~[spring-cloud-netflix-eureka-client-2.1.2.RELEASE.jar:2.1.2.RELEASE]
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration.start(EurekaAutoServiceRegistration.java:83) ~[spring-cloud-netflix-eureka-client-2.1.2.RELEASE.jar:2.1.2.RELEASE]
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration.onApplicationEvent(EurekaAutoServiceRegistration.java:147) ~[spring-cloud-netflix-eureka-client-2.1.2.RELEASE.jar:2.1.2.RELEASE]
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration.onApplicationEvent(EurekaAutoServiceRegistration.java:132) ~[spring-cloud-netflix-eureka-client-2.1.2.RELEASE.jar:2.1.2.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:402) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:359) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:164) ~[spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:552) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140) ~[spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:742) ~[spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:389) ~[spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311) ~[spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1213) ~[spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1202) ~[spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at com.app.api.users.MicroservicesApiUsersApplication.main(MicroservicesApiUsersApplication.java:22) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_172]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_172]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_172]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_172]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+
+2019-09-14 11:17:58.599  WARN [users-ws,,,] 14588 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Using default backup registry implementation which does not do anything.
+2019-09-14 11:17:58.600  INFO [users-ws,,,] 14588 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2019-09-14 11:17:58.604  INFO [users-ws,,,] 14588 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-09-14 11:17:58.607  INFO [users-ws,,,] 14588 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1568452678606 with initial instances count: 0
+2019-09-14 11:17:58.614  INFO [users-ws,,,] 14588 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application USERS-WS with eureka with status UP
+2019-09-14 11:17:58.615  INFO [users-ws,,,] 14588 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1568452678615, current=UP, previous=STARTING]
+2019-09-14 11:17:58.617  INFO [users-ws,,,] 14588 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USERS-WS/users-ws:3366bca8c6808e9e9f7d0a0d75fd73d2: registering service...
+2019-09-14 11:17:58.620  INFO [users-ws,,,] 14588 --- [restartedMain] c.a.a.u.MicroservicesApiUsersApplication : Started MicroservicesApiUsersApplication in 21.798 seconds (JVM running for 22.459)
+2019-09-14 11:18:00.628 ERROR [users-ws,,,] 14588 --- [DiscoveryClient-InstanceInfoReplicator-0] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8010/eureka/}
+
+com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused: connect
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27) ~[eureka-client-1.9.12.jar:1.9.12]
+	at com.sun.jersey.api.client.Client.handle(Client.java:652) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource$Builder.post(WebResource.java:570) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.register(AbstractJerseyEurekaHttpClient.java:56) ~[eureka-client-1.9.12.jar:1.9.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) [eureka-client-1.9.12.jar:1.9.12]
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73) ~[eureka-client-1.9.12.jar:1.9.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) [eureka-client-1.9.12.jar:1.9.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) [eureka-client-1.9.12.jar:1.9.12]
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:118) ~[eureka-client-1.9.12.jar:1.9.12]
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:79) ~[eureka-client-1.9.12.jar:1.9.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) [eureka-client-1.9.12.jar:1.9.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) [eureka-client-1.9.12.jar:1.9.12]
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120) [eureka-client-1.9.12.jar:1.9.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) [eureka-client-1.9.12.jar:1.9.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) [eureka-client-1.9.12.jar:1.9.12]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) [eureka-client-1.9.12.jar:1.9.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) [eureka-client-1.9.12.jar:1.9.12]
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:847) [eureka-client-1.9.12.jar:1.9.12]
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121) [eureka-client-1.9.12.jar:1.9.12]
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101) [eureka-client-1.9.12.jar:1.9.12]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_172]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_172]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_172]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) [na:1.8.0_172]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_172]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_172]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_172]
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[na:1.8.0_172]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85) ~[na:1.8.0_172]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[na:1.8.0_172]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_172]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_172]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[na:1.8.0_172]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_172]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_172]
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121) ~[httpclient-4.5.9.jar:4.5.9]
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180) ~[httpclient-4.5.9.jar:4.5.9]
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144) ~[httpclient-4.5.9.jar:4.5.9]
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134) ~[httpclient-4.5.9.jar:4.5.9]
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:605) ~[httpclient-4.5.9.jar:4.5.9]
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:440) ~[httpclient-4.5.9.jar:4.5.9]
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835) ~[httpclient-4.5.9.jar:4.5.9]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118) ~[httpclient-4.5.9.jar:4.5.9]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56) ~[httpclient-4.5.9.jar:4.5.9]
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	... 30 common frames omitted
+
+2019-09-14 11:18:00.631  WARN [users-ws,,,] 14588 --- [DiscoveryClient-InstanceInfoReplicator-0] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2019-09-14 11:18:00.632  WARN [users-ws,,,] 14588 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USERS-WS/users-ws:3366bca8c6808e9e9f7d0a0d75fd73d2 - registration failed Cannot execute request on any known server
+
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-1.9.12.jar:1.9.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-1.9.12.jar:1.9.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) ~[eureka-client-1.9.12.jar:1.9.12]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.9.12.jar:1.9.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-1.9.12.jar:1.9.12]
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:847) ~[eureka-client-1.9.12.jar:1.9.12]
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121) [eureka-client-1.9.12.jar:1.9.12]
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101) [eureka-client-1.9.12.jar:1.9.12]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_172]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_172]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_172]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) [na:1.8.0_172]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_172]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_172]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_172]
+
+2019-09-14 11:18:00.633  WARN [users-ws,,,] 14588 --- [DiscoveryClient-InstanceInfoReplicator-0] c.n.discovery.InstanceInfoReplicator     : There was a problem with the instance info replicator
+
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-1.9.12.jar:1.9.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-1.9.12.jar:1.9.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) ~[eureka-client-1.9.12.jar:1.9.12]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.9.12.jar:1.9.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-1.9.12.jar:1.9.12]
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:847) ~[eureka-client-1.9.12.jar:1.9.12]
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121) ~[eureka-client-1.9.12.jar:1.9.12]
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101) [eureka-client-1.9.12.jar:1.9.12]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_172]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_172]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_172]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) [na:1.8.0_172]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_172]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_172]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_172]
+
+2019-09-14 12:29:14.405  INFO [users-ws,,,] 12972 --- [restartedMain] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8012
+2019-09-14 12:29:16.801  INFO [users-ws,,,] 12972 --- [restartedMain] c.c.c.ConfigServicePropertySourceLocator : Located environment: name=users-ws, profiles=[default], label=null, version=712d5f5f9da52229d62481b023b44e121eea0e87, state=null
+2019-09-14 12:29:16.805  INFO [users-ws,,,] 12972 --- [restartedMain] b.c.PropertySourceBootstrapConfiguration : Located property source: CompositePropertySource {name='configService', propertySources=[MapPropertySource {name='configClient'}, MapPropertySource {name='https://github.com/MarinPuizina/AppConfiguration/users-ws.properties'}, MapPropertySource {name='https://github.com/MarinPuizina/AppConfiguration/application.properties'}]}
+2019-09-14 12:29:16.852  INFO [users-ws,,,] 12972 --- [restartedMain] c.a.a.u.MicroservicesApiUsersApplication : No active profile set, falling back to default profiles: default
+2019-09-14 12:29:18.268  WARN [users-ws,,,] 12972 --- [restartedMain] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'bus-env' contains invalid characters, please migrate to a valid format.
+2019-09-14 12:29:18.561  INFO [users-ws,,,] 12972 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-14 12:29:18.826  INFO [users-ws,,,] 12972 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 255ms. Found 1 repository interfaces.
+2019-09-14 12:29:18.968  WARN [users-ws,,,] 12972 --- [restartedMain] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'bus-refresh' contains invalid characters, please migrate to a valid format.
+2019-09-14 12:29:19.046  WARN [users-ws,,,] 12972 --- [restartedMain] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-09-14 12:29:19.161  WARN [users-ws,,,] 12972 --- [restartedMain] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2019-09-14 12:29:19.872  INFO [users-ws,,,] 12972 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=46459284-32c4-37d4-9d5d-52a0f7fec9d7
+2019-09-14 12:29:19.953  INFO [users-ws,,,] 12972 --- [restartedMain] faultConfiguringBeanFactoryPostProcessor : No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2019-09-14 12:29:19.973  INFO [users-ws,,,] 12972 --- [restartedMain] faultConfiguringBeanFactoryPostProcessor : No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+2019-09-14 12:29:20.003  INFO [users-ws,,,] 12972 --- [restartedMain] faultConfiguringBeanFactoryPostProcessor : No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2019-09-14 12:29:20.830  INFO [users-ws,,,] 12972 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e1b196f2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-14 12:29:20.901  INFO [users-ws,,,] 12972 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-14 12:29:20.968  INFO [users-ws,,,] 12972 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration$$EnhancerBySpringCGLIB$$4ca35221] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-14 12:29:20.998  INFO [users-ws,,,] 12972 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.integration.IntegrationAutoConfiguration$IntegrationJmxConfiguration' of type [org.springframework.boot.autoconfigure.integration.IntegrationAutoConfiguration$IntegrationJmxConfiguration$$EnhancerBySpringCGLIB$$28355d41] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-14 12:29:21.016  INFO [users-ws,,,] 12972 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration' of type [org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration$$EnhancerBySpringCGLIB$$611d060e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-14 12:29:21.036  INFO [users-ws,,,] 12972 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'mbeanServer' of type [com.sun.jmx.mbeanserver.JmxMBeanServer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-14 12:29:21.205  INFO [users-ws,,,] 12972 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$fdcb99ef] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-14 12:29:22.944  INFO [users-ws,,,] 12972 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2019-09-14 12:29:23.003  INFO [users-ws,,,] 12972 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-09-14 12:29:23.008  INFO [users-ws,,,] 12972 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-09-14 12:29:23.227  INFO [users-ws,,,] 12972 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-09-14 12:29:23.230  INFO [users-ws,,,] 12972 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 6358 ms
+2019-09-14 12:29:23.480  WARN [users-ws,,,] 12972 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-09-14 12:29:23.484  INFO [users-ws,,,] 12972 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-09-14 12:29:23.504  INFO [users-ws,,,] 12972 --- [restartedMain] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@5a1f5b0e
+2019-09-14 12:29:25.971  INFO [users-ws,,,] 12972 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2019-09-14 12:29:26.716  INFO [users-ws,,,] 12972 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2019-09-14 12:29:27.671  INFO [users-ws,,,] 12972 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-09-14 12:29:28.518  INFO [users-ws,,,] 12972 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-09-14 12:29:28.617  INFO [users-ws,,,] 12972 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-09-14 12:29:28.743  INFO [users-ws,,,] 12972 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2019-09-14 12:29:28.748  INFO [users-ws,,,] 12972 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-09-14 12:29:28.915  INFO [users-ws,,,] 12972 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-09-14 12:29:29.089  INFO [users-ws,,,] 12972 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-09-14 12:29:29.805  INFO [users-ws,,,] 12972 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-09-14 12:29:29.856  WARN [users-ws,,,] 12972 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2019-09-14 12:29:31.030  INFO [users-ws,,,] 12972 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2d7fe3f3, org.springframework.security.web.context.SecurityContextPersistenceFilter@77a995db, org.springframework.security.web.header.HeaderWriterFilter@34151fd3, org.springframework.security.web.authentication.logout.LogoutFilter@32e2375, com.app.api.users.security.AuthenticationFilter@11923320, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@68e27e24, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@56763daf, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@45a07a71, org.springframework.security.web.session.SessionManagementFilter@73646680, org.springframework.security.web.access.ExceptionTranslationFilter@607645ac, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@693d19f7]
+2019-09-14 12:29:31.078  WARN [users-ws,,,] 12972 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-09-14 12:29:31.078  INFO [users-ws,,,] 12972 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-09-14 12:29:31.287  INFO [users-ws,,,] 12972 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-14 12:29:31.358  WARN [users-ws,,,] 12972 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-09-14 12:29:32.103  INFO [users-ws,,,] 12972 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2019-09-14 12:29:33.397  INFO [users-ws,,,] 12972 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2019-09-14 12:29:33.868  INFO [users-ws,,,] 12972 --- [restartedMain] o.s.c.s.m.DirectWithAttributesChannel    : Channel 'application-1.springCloudBusInput' has 1 subscriber(s).
+2019-09-14 12:29:34.006  INFO [users-ws,,,] 12972 --- [restartedMain] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageChannel errorChannel
+2019-09-14 12:29:34.068  INFO [users-ws,,,] 12972 --- [restartedMain] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageChannel springCloudBusInput
+2019-09-14 12:29:34.101  INFO [users-ws,,,] 12972 --- [restartedMain] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageChannel nullChannel
+2019-09-14 12:29:34.114  INFO [users-ws,,,] 12972 --- [restartedMain] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageChannel springCloudBusOutput
+2019-09-14 12:29:34.126  INFO [users-ws,,,] 12972 --- [restartedMain] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageHandler org.springframework.cloud.stream.binding.StreamListenerMessageHandler@7be9e75d
+2019-09-14 12:29:34.187  INFO [users-ws,,,] 12972 --- [restartedMain] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageHandler errorLogger
+2019-09-14 12:29:34.227  INFO [users-ws,,,] 12972 --- [restartedMain] o.s.i.endpoint.EventDrivenConsumer       : Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2019-09-14 12:29:34.230  INFO [users-ws,,,] 12972 --- [restartedMain] o.s.i.channel.PublishSubscribeChannel    : Channel 'application-1.errorChannel' has 1 subscriber(s).
+2019-09-14 12:29:34.230  INFO [users-ws,,,] 12972 --- [restartedMain] o.s.i.endpoint.EventDrivenConsumer       : started _org.springframework.integration.errorLogger
+2019-09-14 12:29:35.424  INFO [users-ws,,,] 12972 --- [restartedMain] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8012
+2019-09-14 12:29:37.525  INFO [users-ws,,,] 12972 --- [restartedMain] c.c.c.ConfigServicePropertySourceLocator : Located environment: name=users-ws, profiles=[default], label=null, version=712d5f5f9da52229d62481b023b44e121eea0e87, state=null
+2019-09-14 12:29:37.527  INFO [users-ws,,,] 12972 --- [restartedMain] b.c.PropertySourceBootstrapConfiguration : Located property source: CompositePropertySource {name='configService', propertySources=[MapPropertySource {name='configClient'}, MapPropertySource {name='https://github.com/MarinPuizina/AppConfiguration/users-ws.properties'}, MapPropertySource {name='https://github.com/MarinPuizina/AppConfiguration/application.properties'}]}
+2019-09-14 12:29:37.788  INFO [users-ws,,,] 12972 --- [restartedMain] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2019-09-14 12:29:37.864  INFO [users-ws,,,] 12972 --- [restartedMain] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#31afc803:0/SimpleConnection@3ae935b5 [delegate=amqp://marin@127.0.0.1:5672/, localPort= 55130]
+2019-09-14 12:29:37.903  INFO [users-ws,,,] 12972 --- [restartedMain] o.s.c.s.m.DirectWithAttributesChannel    : Channel 'application-1.springCloudBusOutput' has 1 subscriber(s).
+2019-09-14 12:29:37.938  INFO [users-ws,,,] 12972 --- [restartedMain] c.s.b.r.p.RabbitExchangeQueueProvisioner : declaring queue for inbound: springCloudBus.anonymous._OdmRRDgS3G0dtW8p-x2UA, bound to: springCloudBus
+2019-09-14 12:29:37.961  INFO [users-ws,,,] 12972 --- [restartedMain] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageChannel springCloudBus.anonymous._OdmRRDgS3G0dtW8p-x2UA.errors
+2019-09-14 12:29:38.008  INFO [users-ws,,,] 12972 --- [restartedMain] o.s.c.stream.binder.BinderErrorChannel   : Channel 'application-1.springCloudBus.anonymous._OdmRRDgS3G0dtW8p-x2UA.errors' has 1 subscriber(s).
+2019-09-14 12:29:38.009  INFO [users-ws,,,] 12972 --- [restartedMain] o.s.c.stream.binder.BinderErrorChannel   : Channel 'application-1.springCloudBus.anonymous._OdmRRDgS3G0dtW8p-x2UA.errors' has 2 subscriber(s).
+2019-09-14 12:29:38.034  INFO [users-ws,,,] 12972 --- [restartedMain] o.s.i.a.i.AmqpInboundChannelAdapter      : started inbound.springCloudBus.anonymous._OdmRRDgS3G0dtW8p-x2UA
+2019-09-14 12:29:38.088  INFO [users-ws,,,] 12972 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 55131 (http) with context path ''
+2019-09-14 12:29:38.089  INFO [users-ws,,,] 12972 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 55131
+2019-09-14 12:29:38.096  INFO [users-ws,,,] 12972 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2019-09-14 12:29:38.142  INFO [users-ws,,,] 12972 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2019-09-14 12:29:38.212  INFO [users-ws,,,] 12972 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-09-14 12:29:38.212  INFO [users-ws,,,] 12972 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-09-14 12:29:38.331  INFO [users-ws,,,] 12972 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-09-14 12:29:38.332  INFO [users-ws,,,] 12972 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-09-14 12:29:38.485  INFO [users-ws,,,] 12972 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-09-14 12:29:38.588  INFO [users-ws,,,] 12972 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2019-09-14 12:29:38.588  INFO [users-ws,,,] 12972 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2019-09-14 12:29:38.588  INFO [users-ws,,,] 12972 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2019-09-14 12:29:38.588  INFO [users-ws,,,] 12972 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2019-09-14 12:29:38.588  INFO [users-ws,,,] 12972 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2019-09-14 12:29:38.588  INFO [users-ws,,,] 12972 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2019-09-14 12:29:38.588  INFO [users-ws,,,] 12972 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2019-09-14 12:29:38.714  INFO [users-ws,,,] 12972 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2019-09-14 12:29:38.717  INFO [users-ws,,,] 12972 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2019-09-14 12:29:38.719  INFO [users-ws,,,] 12972 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-09-14 12:29:38.722  INFO [users-ws,,,] 12972 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1568456978721 with initial instances count: 2
+2019-09-14 12:29:38.731  INFO [users-ws,,,] 12972 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application USERS-WS with eureka with status UP
+2019-09-14 12:29:38.733  INFO [users-ws,,,] 12972 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1568456978732, current=UP, previous=STARTING]
+2019-09-14 12:29:38.735  INFO [users-ws,,,] 12972 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USERS-WS/users-ws:a9a7ebcaf492a002468fb7cc190211b3: registering service...
+2019-09-14 12:29:38.739  INFO [users-ws,,,] 12972 --- [restartedMain] c.a.a.u.MicroservicesApiUsersApplication : Started MicroservicesApiUsersApplication in 27.8 seconds (JVM running for 28.574)
+2019-09-14 12:29:38.774  INFO [users-ws,,,] 12972 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USERS-WS/users-ws:a9a7ebcaf492a002468fb7cc190211b3 - registration status: 204
+2019-09-14 12:30:34.073  INFO [users-ws,,,] 12972 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-14 12:30:34.073  INFO [users-ws,,,] 12972 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-09-14 12:30:34.089  INFO [users-ws,,,] 12972 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 16 ms
+2019-09-14 12:30:34.202  INFO [users-ws,dfe03deec07616b6,dfe03deec07616b6,true] 12972 --- [http-nio-auto-1-exec-1] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-09-14 12:30:35.192  INFO [users-ws,,,] 12972 --- [AsyncReporter{org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender@66639d9f}] c.netflix.config.ChainedDynamicProperty  : Flipping property: localhost.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2019-09-14 12:30:35.232  INFO [users-ws,,,] 12972 --- [AsyncReporter{org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender@66639d9f}] c.n.u.concurrent.ShutdownEnabledTimer    : Shutdown hook installed for: NFLoadBalancer-PingTimer-localhost
+2019-09-14 12:30:35.232  INFO [users-ws,,,] 12972 --- [AsyncReporter{org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender@66639d9f}] c.netflix.loadbalancer.BaseLoadBalancer  : Client: localhost instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=localhost,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2019-09-14 12:30:35.242  INFO [users-ws,,,] 12972 --- [AsyncReporter{org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender@66639d9f}] c.n.l.DynamicServerListLoadBalancer      : Using serverListUpdater PollingServerListUpdater
+2019-09-14 12:30:35.247  INFO [users-ws,,,] 12972 --- [AsyncReporter{org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender@66639d9f}] c.n.l.DynamicServerListLoadBalancer      : DynamicServerListLoadBalancer for client localhost initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=localhost,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@2203fbdf
+2019-09-14 12:30:53.754  INFO [users-ws,106d8ccd7b35f8d5,106d8ccd7b35f8d5,true] 12972 --- [http-nio-auto-1-exec-2] c.a.api.users.service.UsersServiceImpl   : Before calling albums Microservice.
+2019-09-14 12:30:53.910 DEBUG [users-ws,106d8ccd7b35f8d5,ef2f351a38ead9a2,true] 12972 --- [hystrix-albums-ws-1] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] ---> GET http://albums-ws/users/efa59d16-d92a-4b19-b2a2-f119d1962d5a/albums HTTP/1.1
+2019-09-14 12:30:53.913 DEBUG [users-ws,106d8ccd7b35f8d5,ef2f351a38ead9a2,true] 12972 --- [hystrix-albums-ws-1] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] ---> END HTTP (0-byte body)
+2019-09-14 12:30:53.947  INFO [users-ws,106d8ccd7b35f8d5,ef2f351a38ead9a2,true] 12972 --- [hystrix-albums-ws-1] c.netflix.config.ChainedDynamicProperty  : Flipping property: albums-ws.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2019-09-14 12:30:53.951  INFO [users-ws,106d8ccd7b35f8d5,ef2f351a38ead9a2,true] 12972 --- [hystrix-albums-ws-1] c.n.u.concurrent.ShutdownEnabledTimer    : Shutdown hook installed for: NFLoadBalancer-PingTimer-albums-ws
+2019-09-14 12:30:53.951  INFO [users-ws,106d8ccd7b35f8d5,ef2f351a38ead9a2,true] 12972 --- [hystrix-albums-ws-1] c.netflix.loadbalancer.BaseLoadBalancer  : Client: albums-ws instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=albums-ws,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2019-09-14 12:30:53.954  INFO [users-ws,106d8ccd7b35f8d5,ef2f351a38ead9a2,true] 12972 --- [hystrix-albums-ws-1] c.n.l.DynamicServerListLoadBalancer      : Using serverListUpdater PollingServerListUpdater
+2019-09-14 12:30:53.974  INFO [users-ws,106d8ccd7b35f8d5,ef2f351a38ead9a2,true] 12972 --- [hystrix-albums-ws-1] c.netflix.config.ChainedDynamicProperty  : Flipping property: albums-ws.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2019-09-14 12:30:53.976  INFO [users-ws,106d8ccd7b35f8d5,ef2f351a38ead9a2,true] 12972 --- [hystrix-albums-ws-1] c.n.l.DynamicServerListLoadBalancer      : DynamicServerListLoadBalancer for client albums-ws initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=albums-ws,current list of Servers=[localhost:55104],Load balancer stats=Zone stats: {defaultzone=[Zone:defaultzone;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:localhost:55104;	Zone:defaultZone;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 01:00:00 CET 1970;	First connection made: Thu Jan 01 01:00:00 CET 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@42535834
+2019-09-14 12:30:54.164 DEBUG [users-ws,106d8ccd7b35f8d5,ef2f351a38ead9a2,true] 12972 --- [hystrix-albums-ws-1] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] <--- HTTP/1.1 200 (248ms)
+2019-09-14 12:30:54.164 DEBUG [users-ws,106d8ccd7b35f8d5,ef2f351a38ead9a2,true] 12972 --- [hystrix-albums-ws-1] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] content-type: application/json;charset=UTF-8
+2019-09-14 12:30:54.164 DEBUG [users-ws,106d8ccd7b35f8d5,ef2f351a38ead9a2,true] 12972 --- [hystrix-albums-ws-1] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] date: Sat, 14 Sep 2019 10:30:54 GMT
+2019-09-14 12:30:54.164 DEBUG [users-ws,106d8ccd7b35f8d5,ef2f351a38ead9a2,true] 12972 --- [hystrix-albums-ws-1] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] transfer-encoding: chunked
+2019-09-14 12:30:54.164 DEBUG [users-ws,106d8ccd7b35f8d5,ef2f351a38ead9a2,true] 12972 --- [hystrix-albums-ws-1] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] 
+2019-09-14 12:30:54.167 DEBUG [users-ws,106d8ccd7b35f8d5,ef2f351a38ead9a2,true] 12972 --- [hystrix-albums-ws-1] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] [{"albumId":"album1Id","userId":"efa59d16-d92a-4b19-b2a2-f119d1962d5a","name":"album 1 name","description":"album 1 description"},{"albumId":"album2Id","userId":"efa59d16-d92a-4b19-b2a2-f119d1962d5a","name":"album 2 name","description":"album 2 description"}]
+2019-09-14 12:30:54.167 DEBUG [users-ws,106d8ccd7b35f8d5,ef2f351a38ead9a2,true] 12972 --- [hystrix-albums-ws-1] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] <--- END HTTP (259-byte body)
+2019-09-14 12:30:54.176  INFO [users-ws,106d8ccd7b35f8d5,106d8ccd7b35f8d5,true] 12972 --- [http-nio-auto-1-exec-2] c.a.api.users.service.UsersServiceImpl   : After calling albums Microservice.
+2019-09-14 12:30:54.955  INFO [users-ws,,,] 12972 --- [PollingServerListUpdater-0] c.netflix.config.ChainedDynamicProperty  : Flipping property: albums-ws.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2019-09-14 12:34:38.592  INFO [users-ws,,,] 12972 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-09-14 12:39:38.595  INFO [users-ws,,,] 12972 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-09-14 12:39:53.945  INFO [users-ws,72de1c1e842fc95f,72de1c1e842fc95f,true] 12972 --- [http-nio-auto-1-exec-4] c.a.api.users.service.UsersServiceImpl   : Before calling albums Microservice.
+2019-09-14 12:39:53.949 DEBUG [users-ws,72de1c1e842fc95f,b219a45fe1068e29,true] 12972 --- [hystrix-albums-ws-2] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] ---> GET http://albums-ws/users/efa59d16-d92a-4b19-b2a2-f119d1962d5a/albums HTTP/1.1
+2019-09-14 12:39:53.951 DEBUG [users-ws,72de1c1e842fc95f,b219a45fe1068e29,true] 12972 --- [hystrix-albums-ws-2] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] ---> END HTTP (0-byte body)
+2019-09-14 12:39:53.958 DEBUG [users-ws,72de1c1e842fc95f,b219a45fe1068e29,true] 12972 --- [hystrix-albums-ws-2] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] <--- HTTP/1.1 200 (6ms)
+2019-09-14 12:39:53.961 DEBUG [users-ws,72de1c1e842fc95f,b219a45fe1068e29,true] 12972 --- [hystrix-albums-ws-2] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] content-type: application/json;charset=UTF-8
+2019-09-14 12:39:53.961 DEBUG [users-ws,72de1c1e842fc95f,b219a45fe1068e29,true] 12972 --- [hystrix-albums-ws-2] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] date: Sat, 14 Sep 2019 10:39:53 GMT
+2019-09-14 12:39:53.963 DEBUG [users-ws,72de1c1e842fc95f,b219a45fe1068e29,true] 12972 --- [hystrix-albums-ws-2] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] transfer-encoding: chunked
+2019-09-14 12:39:53.963 DEBUG [users-ws,72de1c1e842fc95f,b219a45fe1068e29,true] 12972 --- [hystrix-albums-ws-2] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] 
+2019-09-14 12:39:53.963 DEBUG [users-ws,72de1c1e842fc95f,b219a45fe1068e29,true] 12972 --- [hystrix-albums-ws-2] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] [{"albumId":"album1Id","userId":"efa59d16-d92a-4b19-b2a2-f119d1962d5a","name":"album 1 name","description":"album 1 description"},{"albumId":"album2Id","userId":"efa59d16-d92a-4b19-b2a2-f119d1962d5a","name":"album 2 name","description":"album 2 description"}]
+2019-09-14 12:39:53.963 DEBUG [users-ws,72de1c1e842fc95f,b219a45fe1068e29,true] 12972 --- [hystrix-albums-ws-2] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] <--- END HTTP (259-byte body)
+2019-09-14 12:39:53.966  INFO [users-ws,72de1c1e842fc95f,72de1c1e842fc95f,true] 12972 --- [http-nio-auto-1-exec-4] c.a.api.users.service.UsersServiceImpl   : After calling albums Microservice.
+2019-09-14 12:40:37.211  INFO [users-ws,a97a56cad0ce7a6a,a97a56cad0ce7a6a,true] 12972 --- [http-nio-auto-1-exec-6] c.a.api.users.service.UsersServiceImpl   : Before calling albums Microservice.
+2019-09-14 12:40:37.214 DEBUG [users-ws,a97a56cad0ce7a6a,f640e8b378ef589c,true] 12972 --- [hystrix-albums-ws-3] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] ---> GET http://albums-ws/users/efa59d16-d92a-4b19-b2a2-f119d1962d5a/albums HTTP/1.1
+2019-09-14 12:40:37.214 DEBUG [users-ws,a97a56cad0ce7a6a,f640e8b378ef589c,true] 12972 --- [hystrix-albums-ws-3] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] ---> END HTTP (0-byte body)
+2019-09-14 12:40:37.222 DEBUG [users-ws,a97a56cad0ce7a6a,f640e8b378ef589c,true] 12972 --- [hystrix-albums-ws-3] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] <--- HTTP/1.1 200 (5ms)
+2019-09-14 12:40:37.222 DEBUG [users-ws,a97a56cad0ce7a6a,f640e8b378ef589c,true] 12972 --- [hystrix-albums-ws-3] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] content-type: application/json;charset=UTF-8
+2019-09-14 12:40:37.222 DEBUG [users-ws,a97a56cad0ce7a6a,f640e8b378ef589c,true] 12972 --- [hystrix-albums-ws-3] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] date: Sat, 14 Sep 2019 10:40:37 GMT
+2019-09-14 12:40:37.222 DEBUG [users-ws,a97a56cad0ce7a6a,f640e8b378ef589c,true] 12972 --- [hystrix-albums-ws-3] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] transfer-encoding: chunked
+2019-09-14 12:40:37.224 DEBUG [users-ws,a97a56cad0ce7a6a,f640e8b378ef589c,true] 12972 --- [hystrix-albums-ws-3] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] 
+2019-09-14 12:40:37.225 DEBUG [users-ws,a97a56cad0ce7a6a,f640e8b378ef589c,true] 12972 --- [hystrix-albums-ws-3] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] [{"albumId":"album1Id","userId":"efa59d16-d92a-4b19-b2a2-f119d1962d5a","name":"album 1 name","description":"album 1 description"},{"albumId":"album2Id","userId":"efa59d16-d92a-4b19-b2a2-f119d1962d5a","name":"album 2 name","description":"album 2 description"}]
+2019-09-14 12:40:37.225 DEBUG [users-ws,a97a56cad0ce7a6a,f640e8b378ef589c,true] 12972 --- [hystrix-albums-ws-3] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] <--- END HTTP (259-byte body)
+2019-09-14 12:40:37.225  INFO [users-ws,a97a56cad0ce7a6a,a97a56cad0ce7a6a,true] 12972 --- [http-nio-auto-1-exec-6] c.a.api.users.service.UsersServiceImpl   : After calling albums Microservice.
+2019-09-14 12:44:38.599  INFO [users-ws,,,] 12972 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-09-14 12:49:38.603  INFO [users-ws,,,] 12972 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-09-14 13:05:10.128  INFO [users-ws,,,] 18080 --- [restartedMain] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8012
+2019-09-14 13:05:13.534  INFO [users-ws,,,] 18080 --- [restartedMain] c.c.c.ConfigServicePropertySourceLocator : Located environment: name=users-ws, profiles=[default], label=null, version=712d5f5f9da52229d62481b023b44e121eea0e87, state=null
+2019-09-14 13:05:13.537  INFO [users-ws,,,] 18080 --- [restartedMain] b.c.PropertySourceBootstrapConfiguration : Located property source: CompositePropertySource {name='configService', propertySources=[MapPropertySource {name='configClient'}, MapPropertySource {name='https://github.com/MarinPuizina/AppConfiguration/users-ws.properties'}, MapPropertySource {name='https://github.com/MarinPuizina/AppConfiguration/application.properties'}]}
+2019-09-14 13:05:13.569  INFO [users-ws,,,] 18080 --- [restartedMain] c.a.a.u.MicroservicesApiUsersApplication : No active profile set, falling back to default profiles: default
+2019-09-14 13:05:14.577  WARN [users-ws,,,] 18080 --- [restartedMain] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'bus-env' contains invalid characters, please migrate to a valid format.
+2019-09-14 13:05:14.738  INFO [users-ws,,,] 18080 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-14 13:05:14.919  INFO [users-ws,,,] 18080 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 174ms. Found 1 repository interfaces.
+2019-09-14 13:05:15.016  WARN [users-ws,,,] 18080 --- [restartedMain] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'bus-refresh' contains invalid characters, please migrate to a valid format.
+2019-09-14 13:05:15.065  WARN [users-ws,,,] 18080 --- [restartedMain] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-09-14 13:05:15.134  WARN [users-ws,,,] 18080 --- [restartedMain] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2019-09-14 13:05:15.498  INFO [users-ws,,,] 18080 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=46459284-32c4-37d4-9d5d-52a0f7fec9d7
+2019-09-14 13:05:15.524  INFO [users-ws,,,] 18080 --- [restartedMain] faultConfiguringBeanFactoryPostProcessor : No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2019-09-14 13:05:15.529  INFO [users-ws,,,] 18080 --- [restartedMain] faultConfiguringBeanFactoryPostProcessor : No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+2019-09-14 13:05:15.535  INFO [users-ws,,,] 18080 --- [restartedMain] faultConfiguringBeanFactoryPostProcessor : No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2019-09-14 13:05:15.886  INFO [users-ws,,,] 18080 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$12497cfa] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-14 13:05:15.930  INFO [users-ws,,,] 18080 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-14 13:05:15.977  INFO [users-ws,,,] 18080 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration$$EnhancerBySpringCGLIB$$7d3b3829] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-14 13:05:15.996  INFO [users-ws,,,] 18080 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.integration.IntegrationAutoConfiguration$IntegrationJmxConfiguration' of type [org.springframework.boot.autoconfigure.integration.IntegrationAutoConfiguration$IntegrationJmxConfiguration$$EnhancerBySpringCGLIB$$58cd4349] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-14 13:05:16.010  INFO [users-ws,,,] 18080 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration' of type [org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration$$EnhancerBySpringCGLIB$$91b4ec16] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-14 13:05:16.021  INFO [users-ws,,,] 18080 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'mbeanServer' of type [com.sun.jmx.mbeanserver.JmxMBeanServer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-14 13:05:16.115  INFO [users-ws,,,] 18080 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$2e637ff7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-14 13:05:17.124  INFO [users-ws,,,] 18080 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2019-09-14 13:05:17.150  INFO [users-ws,,,] 18080 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-09-14 13:05:17.153  INFO [users-ws,,,] 18080 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-09-14 13:05:17.289  INFO [users-ws,,,] 18080 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-09-14 13:05:17.291  INFO [users-ws,,,] 18080 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3709 ms
+2019-09-14 13:05:17.472  WARN [users-ws,,,] 18080 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-09-14 13:05:17.474  INFO [users-ws,,,] 18080 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-09-14 13:05:17.489  INFO [users-ws,,,] 18080 --- [restartedMain] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@399691bd
+2019-09-14 13:05:19.633  INFO [users-ws,,,] 18080 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2019-09-14 13:05:20.319  INFO [users-ws,,,] 18080 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2019-09-14 13:05:21.088  INFO [users-ws,,,] 18080 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-09-14 13:05:21.750  INFO [users-ws,,,] 18080 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-09-14 13:05:21.811  INFO [users-ws,,,] 18080 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-09-14 13:05:21.913  INFO [users-ws,,,] 18080 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2019-09-14 13:05:21.923  INFO [users-ws,,,] 18080 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-09-14 13:05:22.064  INFO [users-ws,,,] 18080 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-09-14 13:05:22.212  INFO [users-ws,,,] 18080 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-09-14 13:05:22.884  INFO [users-ws,,,] 18080 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-09-14 13:05:22.931  WARN [users-ws,,,] 18080 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2019-09-14 13:05:23.893  INFO [users-ws,,,] 18080 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@610ee18d, org.springframework.security.web.context.SecurityContextPersistenceFilter@3633864c, org.springframework.security.web.header.HeaderWriterFilter@22a23828, org.springframework.security.web.authentication.logout.LogoutFilter@11e23804, com.app.api.users.security.AuthenticationFilter@1374f242, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3c2bd984, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@36480071, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@714bb57c, org.springframework.security.web.session.SessionManagementFilter@3436598d, org.springframework.security.web.access.ExceptionTranslationFilter@3e71e645, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@38f4c85f]
+2019-09-14 13:05:23.945  WARN [users-ws,,,] 18080 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-09-14 13:05:23.945  INFO [users-ws,,,] 18080 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-09-14 13:05:24.173  INFO [users-ws,,,] 18080 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-14 13:05:24.256  WARN [users-ws,,,] 18080 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-09-14 13:05:25.285  INFO [users-ws,,,] 18080 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2019-09-14 13:05:26.614  INFO [users-ws,,,] 18080 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2019-09-14 13:05:27.057  INFO [users-ws,,,] 18080 --- [restartedMain] o.s.c.s.m.DirectWithAttributesChannel    : Channel 'application-1.springCloudBusInput' has 1 subscriber(s).
+2019-09-14 13:05:27.170  INFO [users-ws,,,] 18080 --- [restartedMain] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageChannel errorChannel
+2019-09-14 13:05:27.230  INFO [users-ws,,,] 18080 --- [restartedMain] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageChannel springCloudBusOutput
+2019-09-14 13:05:27.262  INFO [users-ws,,,] 18080 --- [restartedMain] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageChannel nullChannel
+2019-09-14 13:05:27.275  INFO [users-ws,,,] 18080 --- [restartedMain] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageChannel springCloudBusInput
+2019-09-14 13:05:27.286  INFO [users-ws,,,] 18080 --- [restartedMain] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageHandler errorLogger
+2019-09-14 13:05:27.304  INFO [users-ws,,,] 18080 --- [restartedMain] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageHandler org.springframework.cloud.stream.binding.StreamListenerMessageHandler@3e326946
+2019-09-14 13:05:27.375  INFO [users-ws,,,] 18080 --- [restartedMain] o.s.i.endpoint.EventDrivenConsumer       : Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2019-09-14 13:05:27.377  INFO [users-ws,,,] 18080 --- [restartedMain] o.s.i.channel.PublishSubscribeChannel    : Channel 'application-1.errorChannel' has 1 subscriber(s).
+2019-09-14 13:05:27.378  INFO [users-ws,,,] 18080 --- [restartedMain] o.s.i.endpoint.EventDrivenConsumer       : started _org.springframework.integration.errorLogger
+2019-09-14 13:05:28.562  INFO [users-ws,,,] 18080 --- [restartedMain] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8012
+2019-09-14 13:05:30.678  INFO [users-ws,,,] 18080 --- [restartedMain] c.c.c.ConfigServicePropertySourceLocator : Located environment: name=users-ws, profiles=[default], label=null, version=712d5f5f9da52229d62481b023b44e121eea0e87, state=null
+2019-09-14 13:05:30.680  INFO [users-ws,,,] 18080 --- [restartedMain] b.c.PropertySourceBootstrapConfiguration : Located property source: CompositePropertySource {name='configService', propertySources=[MapPropertySource {name='configClient'}, MapPropertySource {name='https://github.com/MarinPuizina/AppConfiguration/users-ws.properties'}, MapPropertySource {name='https://github.com/MarinPuizina/AppConfiguration/application.properties'}]}
+2019-09-14 13:05:30.937  INFO [users-ws,,,] 18080 --- [restartedMain] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2019-09-14 13:05:31.084  INFO [users-ws,,,] 18080 --- [restartedMain] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#1b660259:0/SimpleConnection@2399dbad [delegate=amqp://marin@127.0.0.1:5672/, localPort= 55890]
+2019-09-14 13:05:31.121  INFO [users-ws,,,] 18080 --- [restartedMain] o.s.c.s.m.DirectWithAttributesChannel    : Channel 'application-1.springCloudBusOutput' has 1 subscriber(s).
+2019-09-14 13:05:31.152  INFO [users-ws,,,] 18080 --- [restartedMain] c.s.b.r.p.RabbitExchangeQueueProvisioner : declaring queue for inbound: springCloudBus.anonymous.DR3CRBj5ROSIUCmyS-80Jg, bound to: springCloudBus
+2019-09-14 13:05:31.172  INFO [users-ws,,,] 18080 --- [restartedMain] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageChannel springCloudBus.anonymous.DR3CRBj5ROSIUCmyS-80Jg.errors
+2019-09-14 13:05:31.195  INFO [users-ws,,,] 18080 --- [restartedMain] o.s.c.stream.binder.BinderErrorChannel   : Channel 'application-1.springCloudBus.anonymous.DR3CRBj5ROSIUCmyS-80Jg.errors' has 1 subscriber(s).
+2019-09-14 13:05:31.195  INFO [users-ws,,,] 18080 --- [restartedMain] o.s.c.stream.binder.BinderErrorChannel   : Channel 'application-1.springCloudBus.anonymous.DR3CRBj5ROSIUCmyS-80Jg.errors' has 2 subscriber(s).
+2019-09-14 13:05:31.219  INFO [users-ws,,,] 18080 --- [restartedMain] o.s.i.a.i.AmqpInboundChannelAdapter      : started inbound.springCloudBus.anonymous.DR3CRBj5ROSIUCmyS-80Jg
+2019-09-14 13:05:31.269  INFO [users-ws,,,] 18080 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 55891 (http) with context path ''
+2019-09-14 13:05:31.270  INFO [users-ws,,,] 18080 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 55891
+2019-09-14 13:05:31.276  INFO [users-ws,,,] 18080 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2019-09-14 13:05:31.317  INFO [users-ws,,,] 18080 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2019-09-14 13:05:31.381  INFO [users-ws,,,] 18080 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-09-14 13:05:31.381  INFO [users-ws,,,] 18080 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-09-14 13:05:31.497  INFO [users-ws,,,] 18080 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-09-14 13:05:31.499  INFO [users-ws,,,] 18080 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-09-14 13:05:31.659  INFO [users-ws,,,] 18080 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-09-14 13:05:31.756  INFO [users-ws,,,] 18080 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2019-09-14 13:05:31.756  INFO [users-ws,,,] 18080 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2019-09-14 13:05:31.756  INFO [users-ws,,,] 18080 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2019-09-14 13:05:31.756  INFO [users-ws,,,] 18080 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2019-09-14 13:05:31.756  INFO [users-ws,,,] 18080 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2019-09-14 13:05:31.757  INFO [users-ws,,,] 18080 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2019-09-14 13:05:31.757  INFO [users-ws,,,] 18080 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2019-09-14 13:05:31.890  INFO [users-ws,,,] 18080 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2019-09-14 13:05:31.893  INFO [users-ws,,,] 18080 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2019-09-14 13:05:31.895  INFO [users-ws,,,] 18080 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-09-14 13:05:31.899  INFO [users-ws,,,] 18080 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1568459131898 with initial instances count: 1
+2019-09-14 13:05:31.909  INFO [users-ws,,,] 18080 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application USERS-WS with eureka with status UP
+2019-09-14 13:05:31.911  INFO [users-ws,,,] 18080 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1568459131911, current=UP, previous=STARTING]
+2019-09-14 13:05:31.915  INFO [users-ws,,,] 18080 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USERS-WS/users-ws:0f3bc9294c8f211b55f321f2809f753b: registering service...
+2019-09-14 13:05:31.919  INFO [users-ws,,,] 18080 --- [restartedMain] c.a.a.u.MicroservicesApiUsersApplication : Started MicroservicesApiUsersApplication in 24.97 seconds (JVM running for 25.953)
+2019-09-14 13:05:31.957  INFO [users-ws,,,] 18080 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USERS-WS/users-ws:0f3bc9294c8f211b55f321f2809f753b - registration status: 204
+2019-09-14 13:08:22.130  INFO [users-ws,,,] 18080 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-14 13:08:22.132  INFO [users-ws,,,] 18080 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-09-14 13:08:22.150  INFO [users-ws,,,] 18080 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 18 ms
+2019-09-14 13:08:22.262  INFO [users-ws,3447355d2894be7f,3447355d2894be7f,true] 18080 --- [http-nio-auto-1-exec-1] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-09-14 13:08:23.101  INFO [users-ws,,,] 18080 --- [AsyncReporter{org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender@22300852}] c.netflix.config.ChainedDynamicProperty  : Flipping property: localhost.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2019-09-14 13:08:23.143  INFO [users-ws,,,] 18080 --- [AsyncReporter{org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender@22300852}] c.n.u.concurrent.ShutdownEnabledTimer    : Shutdown hook installed for: NFLoadBalancer-PingTimer-localhost
+2019-09-14 13:08:23.145  INFO [users-ws,,,] 18080 --- [AsyncReporter{org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender@22300852}] c.netflix.loadbalancer.BaseLoadBalancer  : Client: localhost instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=localhost,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2019-09-14 13:08:23.154  INFO [users-ws,,,] 18080 --- [AsyncReporter{org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender@22300852}] c.n.l.DynamicServerListLoadBalancer      : Using serverListUpdater PollingServerListUpdater
+2019-09-14 13:08:23.157  INFO [users-ws,,,] 18080 --- [AsyncReporter{org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender@22300852}] c.n.l.DynamicServerListLoadBalancer      : DynamicServerListLoadBalancer for client localhost initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=localhost,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@73612ac2
+2019-09-14 13:08:36.838  INFO [users-ws,89df77af727dc4bd,89df77af727dc4bd,true] 18080 --- [http-nio-auto-1-exec-3] c.a.api.users.service.UsersServiceImpl   : Before calling albums Microservice.
+2019-09-14 13:08:36.972 DEBUG [users-ws,89df77af727dc4bd,c9357a31ebc3bc97,true] 18080 --- [hystrix-albums-ws-1] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] ---> GET http://albums-ws/users/efa59d16-d92a-4b19-b2a2-f119d1962d5a/albums HTTP/1.1
+2019-09-14 13:08:36.974 DEBUG [users-ws,89df77af727dc4bd,c9357a31ebc3bc97,true] 18080 --- [hystrix-albums-ws-1] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] ---> END HTTP (0-byte body)
+2019-09-14 13:08:37.002  INFO [users-ws,89df77af727dc4bd,c9357a31ebc3bc97,true] 18080 --- [hystrix-albums-ws-1] c.netflix.config.ChainedDynamicProperty  : Flipping property: albums-ws.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2019-09-14 13:08:37.005  INFO [users-ws,89df77af727dc4bd,c9357a31ebc3bc97,true] 18080 --- [hystrix-albums-ws-1] c.n.u.concurrent.ShutdownEnabledTimer    : Shutdown hook installed for: NFLoadBalancer-PingTimer-albums-ws
+2019-09-14 13:08:37.006  INFO [users-ws,89df77af727dc4bd,c9357a31ebc3bc97,true] 18080 --- [hystrix-albums-ws-1] c.netflix.loadbalancer.BaseLoadBalancer  : Client: albums-ws instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=albums-ws,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2019-09-14 13:08:37.009  INFO [users-ws,89df77af727dc4bd,c9357a31ebc3bc97,true] 18080 --- [hystrix-albums-ws-1] c.n.l.DynamicServerListLoadBalancer      : Using serverListUpdater PollingServerListUpdater
+2019-09-14 13:08:37.024  INFO [users-ws,89df77af727dc4bd,c9357a31ebc3bc97,true] 18080 --- [hystrix-albums-ws-1] c.netflix.config.ChainedDynamicProperty  : Flipping property: albums-ws.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2019-09-14 13:08:37.026  INFO [users-ws,89df77af727dc4bd,c9357a31ebc3bc97,true] 18080 --- [hystrix-albums-ws-1] c.n.l.DynamicServerListLoadBalancer      : DynamicServerListLoadBalancer for client albums-ws initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=albums-ws,current list of Servers=[localhost:55884],Load balancer stats=Zone stats: {defaultzone=[Zone:defaultzone;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:localhost:55884;	Zone:defaultZone;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 01:00:00 CET 1970;	First connection made: Thu Jan 01 01:00:00 CET 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@25fc342e
+2019-09-14 13:08:37.196 DEBUG [users-ws,89df77af727dc4bd,c9357a31ebc3bc97,true] 18080 --- [hystrix-albums-ws-1] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] <--- HTTP/1.1 200 (220ms)
+2019-09-14 13:08:37.196 DEBUG [users-ws,89df77af727dc4bd,c9357a31ebc3bc97,true] 18080 --- [hystrix-albums-ws-1] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] content-type: application/json;charset=UTF-8
+2019-09-14 13:08:37.196 DEBUG [users-ws,89df77af727dc4bd,c9357a31ebc3bc97,true] 18080 --- [hystrix-albums-ws-1] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] date: Sat, 14 Sep 2019 11:08:37 GMT
+2019-09-14 13:08:37.196 DEBUG [users-ws,89df77af727dc4bd,c9357a31ebc3bc97,true] 18080 --- [hystrix-albums-ws-1] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] transfer-encoding: chunked
+2019-09-14 13:08:37.196 DEBUG [users-ws,89df77af727dc4bd,c9357a31ebc3bc97,true] 18080 --- [hystrix-albums-ws-1] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] 
+2019-09-14 13:08:37.199 DEBUG [users-ws,89df77af727dc4bd,c9357a31ebc3bc97,true] 18080 --- [hystrix-albums-ws-1] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] [{"albumId":"album1Id","userId":"efa59d16-d92a-4b19-b2a2-f119d1962d5a","name":"album 1 name","description":"album 1 description"},{"albumId":"album2Id","userId":"efa59d16-d92a-4b19-b2a2-f119d1962d5a","name":"album 2 name","description":"album 2 description"}]
+2019-09-14 13:08:37.199 DEBUG [users-ws,89df77af727dc4bd,c9357a31ebc3bc97,true] 18080 --- [hystrix-albums-ws-1] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] <--- END HTTP (259-byte body)
+2019-09-14 13:08:37.206  INFO [users-ws,89df77af727dc4bd,89df77af727dc4bd,true] 18080 --- [http-nio-auto-1-exec-3] c.a.api.users.service.UsersServiceImpl   : After calling albums Microservice.
+2019-09-14 13:08:38.010  INFO [users-ws,,,] 18080 --- [PollingServerListUpdater-0] c.netflix.config.ChainedDynamicProperty  : Flipping property: albums-ws.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2019-09-14 13:10:31.762  INFO [users-ws,,,] 18080 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-09-14 13:13:37.181  INFO [users-ws,9607d496d5903fa4,9607d496d5903fa4,true] 18080 --- [http-nio-auto-1-exec-4] c.a.api.users.service.UsersServiceImpl   : Before calling albums Microservice.
+2019-09-14 13:13:37.185 DEBUG [users-ws,9607d496d5903fa4,b89f0abf62b736d7,true] 18080 --- [hystrix-albums-ws-2] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] ---> GET http://albums-ws/users/efa59d16-d92a-4b19-b2a2-f119d1962d5a/albums HTTP/1.1
+2019-09-14 13:13:37.187 DEBUG [users-ws,9607d496d5903fa4,b89f0abf62b736d7,true] 18080 --- [hystrix-albums-ws-2] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] ---> END HTTP (0-byte body)
+2019-09-14 13:13:37.195 DEBUG [users-ws,9607d496d5903fa4,b89f0abf62b736d7,true] 18080 --- [hystrix-albums-ws-2] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] <--- HTTP/1.1 200 (6ms)
+2019-09-14 13:13:37.196 DEBUG [users-ws,9607d496d5903fa4,b89f0abf62b736d7,true] 18080 --- [hystrix-albums-ws-2] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] content-type: application/json;charset=UTF-8
+2019-09-14 13:13:37.196 DEBUG [users-ws,9607d496d5903fa4,b89f0abf62b736d7,true] 18080 --- [hystrix-albums-ws-2] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] date: Sat, 14 Sep 2019 11:13:37 GMT
+2019-09-14 13:13:37.196 DEBUG [users-ws,9607d496d5903fa4,b89f0abf62b736d7,true] 18080 --- [hystrix-albums-ws-2] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] transfer-encoding: chunked
+2019-09-14 13:13:37.199 DEBUG [users-ws,9607d496d5903fa4,b89f0abf62b736d7,true] 18080 --- [hystrix-albums-ws-2] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] 
+2019-09-14 13:13:37.199 DEBUG [users-ws,9607d496d5903fa4,b89f0abf62b736d7,true] 18080 --- [hystrix-albums-ws-2] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] [{"albumId":"album1Id","userId":"efa59d16-d92a-4b19-b2a2-f119d1962d5a","name":"album 1 name","description":"album 1 description"},{"albumId":"album2Id","userId":"efa59d16-d92a-4b19-b2a2-f119d1962d5a","name":"album 2 name","description":"album 2 description"}]
+2019-09-14 13:13:37.199 DEBUG [users-ws,9607d496d5903fa4,b89f0abf62b736d7,true] 18080 --- [hystrix-albums-ws-2] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] <--- END HTTP (259-byte body)
+2019-09-14 13:13:37.200  INFO [users-ws,9607d496d5903fa4,9607d496d5903fa4,true] 18080 --- [http-nio-auto-1-exec-4] c.a.api.users.service.UsersServiceImpl   : After calling albums Microservice.
+2019-09-14 13:14:05.571  INFO [users-ws,4836502748a6fd68,4836502748a6fd68,true] 18080 --- [http-nio-auto-1-exec-6] c.a.api.users.service.UsersServiceImpl   : Before calling albums Microservice.
+2019-09-14 13:14:05.574 DEBUG [users-ws,4836502748a6fd68,4adbfc4441fe4891,true] 18080 --- [hystrix-albums-ws-3] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] ---> GET http://albums-ws/users/efa59d16-d92a-4b19-b2a2-f119d1962d5a/albums HTTP/1.1
+2019-09-14 13:14:05.574 DEBUG [users-ws,4836502748a6fd68,4adbfc4441fe4891,true] 18080 --- [hystrix-albums-ws-3] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] ---> END HTTP (0-byte body)
+2019-09-14 13:14:05.580 DEBUG [users-ws,4836502748a6fd68,4adbfc4441fe4891,true] 18080 --- [hystrix-albums-ws-3] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] <--- HTTP/1.1 200 (5ms)
+2019-09-14 13:14:05.582 DEBUG [users-ws,4836502748a6fd68,4adbfc4441fe4891,true] 18080 --- [hystrix-albums-ws-3] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] content-type: application/json;charset=UTF-8
+2019-09-14 13:14:05.582 DEBUG [users-ws,4836502748a6fd68,4adbfc4441fe4891,true] 18080 --- [hystrix-albums-ws-3] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] date: Sat, 14 Sep 2019 11:14:05 GMT
+2019-09-14 13:14:05.582 DEBUG [users-ws,4836502748a6fd68,4adbfc4441fe4891,true] 18080 --- [hystrix-albums-ws-3] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] transfer-encoding: chunked
+2019-09-14 13:14:05.583 DEBUG [users-ws,4836502748a6fd68,4adbfc4441fe4891,true] 18080 --- [hystrix-albums-ws-3] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] 
+2019-09-14 13:14:05.585 DEBUG [users-ws,4836502748a6fd68,4adbfc4441fe4891,true] 18080 --- [hystrix-albums-ws-3] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] [{"albumId":"album1Id","userId":"efa59d16-d92a-4b19-b2a2-f119d1962d5a","name":"album 1 name","description":"album 1 description"},{"albumId":"album2Id","userId":"efa59d16-d92a-4b19-b2a2-f119d1962d5a","name":"album 2 name","description":"album 2 description"}]
+2019-09-14 13:14:05.585 DEBUG [users-ws,4836502748a6fd68,4adbfc4441fe4891,true] 18080 --- [hystrix-albums-ws-3] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] <--- END HTTP (259-byte body)
+2019-09-14 13:14:05.585  INFO [users-ws,4836502748a6fd68,4836502748a6fd68,true] 18080 --- [http-nio-auto-1-exec-6] c.a.api.users.service.UsersServiceImpl   : After calling albums Microservice.
+2019-09-14 13:15:31.766  INFO [users-ws,,,] 18080 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-09-14 13:17:08.152  INFO [users-ws,3a5ee52d333547fc,3a5ee52d333547fc,true] 18080 --- [http-nio-auto-1-exec-8] c.a.api.users.service.UsersServiceImpl   : Before calling albums Microservice.
+2019-09-14 13:17:08.153 DEBUG [users-ws,3a5ee52d333547fc,f40394b45754481e,true] 18080 --- [hystrix-albums-ws-4] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] ---> GET http://albums-ws/users/efa59d16-d92a-4b19-b2a2-f119d1962d5a/albums HTTP/1.1
+2019-09-14 13:17:08.155 DEBUG [users-ws,3a5ee52d333547fc,f40394b45754481e,true] 18080 --- [hystrix-albums-ws-4] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] ---> END HTTP (0-byte body)
+2019-09-14 13:17:09.159 ERROR [users-ws,3a5ee52d333547fc,1bc949630b4ba955,true] 18080 --- [HystrixTimer-1] c.a.a.u.d.AlbumsServiceClientFallback    : Other error took place: null
+2019-09-14 13:17:09.161  INFO [users-ws,3a5ee52d333547fc,3a5ee52d333547fc,true] 18080 --- [http-nio-auto-1-exec-8] c.a.api.users.service.UsersServiceImpl   : After calling albums Microservice.
+2019-09-14 13:17:09.296 DEBUG [users-ws,3a5ee52d333547fc,f40394b45754481e,true] 18080 --- [hystrix-albums-ws-4] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] <--- HTTP/1.1 200 (1140ms)
+2019-09-14 13:17:09.298 DEBUG [users-ws,3a5ee52d333547fc,f40394b45754481e,true] 18080 --- [hystrix-albums-ws-4] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] content-type: application/json;charset=UTF-8
+2019-09-14 13:17:09.298 DEBUG [users-ws,3a5ee52d333547fc,f40394b45754481e,true] 18080 --- [hystrix-albums-ws-4] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] date: Sat, 14 Sep 2019 11:17:09 GMT
+2019-09-14 13:17:09.300 DEBUG [users-ws,3a5ee52d333547fc,f40394b45754481e,true] 18080 --- [hystrix-albums-ws-4] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] transfer-encoding: chunked
+2019-09-14 13:17:09.300 DEBUG [users-ws,3a5ee52d333547fc,f40394b45754481e,true] 18080 --- [hystrix-albums-ws-4] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] 
+2019-09-14 13:17:09.302 DEBUG [users-ws,3a5ee52d333547fc,f40394b45754481e,true] 18080 --- [hystrix-albums-ws-4] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] [{"albumId":"album1Id","userId":"efa59d16-d92a-4b19-b2a2-f119d1962d5a","name":"album 1 name","description":"album 1 description"},{"albumId":"album2Id","userId":"efa59d16-d92a-4b19-b2a2-f119d1962d5a","name":"album 2 name","description":"album 2 description"}]
+2019-09-14 13:17:09.302 DEBUG [users-ws,3a5ee52d333547fc,f40394b45754481e,true] 18080 --- [hystrix-albums-ws-4] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] <--- END HTTP (259-byte body)
+2019-09-14 13:17:10.779  INFO [users-ws,47057398cba81d89,47057398cba81d89,true] 18080 --- [http-nio-auto-1-exec-9] c.a.api.users.service.UsersServiceImpl   : Before calling albums Microservice.
+2019-09-14 13:17:10.782 DEBUG [users-ws,47057398cba81d89,e47a5aa51fff3da7,true] 18080 --- [hystrix-albums-ws-5] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] ---> GET http://albums-ws/users/efa59d16-d92a-4b19-b2a2-f119d1962d5a/albums HTTP/1.1
+2019-09-14 13:17:10.784 DEBUG [users-ws,47057398cba81d89,e47a5aa51fff3da7,true] 18080 --- [hystrix-albums-ws-5] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] ---> END HTTP (0-byte body)
+2019-09-14 13:17:11.784 ERROR [users-ws,47057398cba81d89,ae20e80548a820d7,true] 18080 --- [HystrixTimer-3] c.a.a.u.d.AlbumsServiceClientFallback    : Other error took place: null
+2019-09-14 13:17:11.786  INFO [users-ws,47057398cba81d89,47057398cba81d89,true] 18080 --- [http-nio-auto-1-exec-9] c.a.api.users.service.UsersServiceImpl   : After calling albums Microservice.
+2019-09-14 13:17:11.793 DEBUG [users-ws,47057398cba81d89,e47a5aa51fff3da7,true] 18080 --- [hystrix-albums-ws-5] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] <--- HTTP/1.1 200 (1007ms)
+2019-09-14 13:17:11.793 DEBUG [users-ws,47057398cba81d89,e47a5aa51fff3da7,true] 18080 --- [hystrix-albums-ws-5] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] content-type: application/json;charset=UTF-8
+2019-09-14 13:17:11.793 DEBUG [users-ws,47057398cba81d89,e47a5aa51fff3da7,true] 18080 --- [hystrix-albums-ws-5] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] date: Sat, 14 Sep 2019 11:17:11 GMT
+2019-09-14 13:17:11.795 DEBUG [users-ws,47057398cba81d89,e47a5aa51fff3da7,true] 18080 --- [hystrix-albums-ws-5] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] transfer-encoding: chunked
+2019-09-14 13:17:11.795 DEBUG [users-ws,47057398cba81d89,e47a5aa51fff3da7,true] 18080 --- [hystrix-albums-ws-5] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] 
+2019-09-14 13:17:11.795 DEBUG [users-ws,47057398cba81d89,e47a5aa51fff3da7,true] 18080 --- [hystrix-albums-ws-5] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] [{"albumId":"album1Id","userId":"efa59d16-d92a-4b19-b2a2-f119d1962d5a","name":"album 1 name","description":"album 1 description"},{"albumId":"album2Id","userId":"efa59d16-d92a-4b19-b2a2-f119d1962d5a","name":"album 2 name","description":"album 2 description"}]
+2019-09-14 13:17:11.795 DEBUG [users-ws,47057398cba81d89,e47a5aa51fff3da7,true] 18080 --- [hystrix-albums-ws-5] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] <--- END HTTP (259-byte body)
+2019-09-14 13:17:22.327  INFO [users-ws,26c20582f823a137,26c20582f823a137,true] 18080 --- [http-nio-auto-1-exec-10] c.a.api.users.service.UsersServiceImpl   : Before calling albums Microservice.
+2019-09-14 13:17:22.330 DEBUG [users-ws,26c20582f823a137,a4b7959b7b6ae58a,true] 18080 --- [hystrix-albums-ws-6] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] ---> GET http://albums-ws/users/efa59d16-d92a-4b19-b2a2-f119d1962d5a/albums HTTP/1.1
+2019-09-14 13:17:22.332 DEBUG [users-ws,26c20582f823a137,a4b7959b7b6ae58a,true] 18080 --- [hystrix-albums-ws-6] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] ---> END HTTP (0-byte body)
+2019-09-14 13:17:23.331 ERROR [users-ws,26c20582f823a137,58135e0d6f8d16d8,true] 18080 --- [HystrixTimer-2] c.a.a.u.d.AlbumsServiceClientFallback    : Other error took place: null
+2019-09-14 13:17:23.333  INFO [users-ws,26c20582f823a137,26c20582f823a137,true] 18080 --- [http-nio-auto-1-exec-10] c.a.api.users.service.UsersServiceImpl   : After calling albums Microservice.
+2019-09-14 13:17:23.348 DEBUG [users-ws,26c20582f823a137,a4b7959b7b6ae58a,true] 18080 --- [hystrix-albums-ws-6] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] <--- HTTP/1.1 200 (1015ms)
+2019-09-14 13:17:23.348 DEBUG [users-ws,26c20582f823a137,a4b7959b7b6ae58a,true] 18080 --- [hystrix-albums-ws-6] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] content-type: application/json;charset=UTF-8
+2019-09-14 13:17:23.348 DEBUG [users-ws,26c20582f823a137,a4b7959b7b6ae58a,true] 18080 --- [hystrix-albums-ws-6] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] date: Sat, 14 Sep 2019 11:17:23 GMT
+2019-09-14 13:17:23.350 DEBUG [users-ws,26c20582f823a137,a4b7959b7b6ae58a,true] 18080 --- [hystrix-albums-ws-6] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] transfer-encoding: chunked
+2019-09-14 13:17:23.351 DEBUG [users-ws,26c20582f823a137,a4b7959b7b6ae58a,true] 18080 --- [hystrix-albums-ws-6] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] 
+2019-09-14 13:17:23.351 DEBUG [users-ws,26c20582f823a137,a4b7959b7b6ae58a,true] 18080 --- [hystrix-albums-ws-6] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] [{"albumId":"album1Id","userId":"efa59d16-d92a-4b19-b2a2-f119d1962d5a","name":"album 1 name","description":"album 1 description"},{"albumId":"album2Id","userId":"efa59d16-d92a-4b19-b2a2-f119d1962d5a","name":"album 2 name","description":"album 2 description"}]
+2019-09-14 13:17:23.351 DEBUG [users-ws,26c20582f823a137,a4b7959b7b6ae58a,true] 18080 --- [hystrix-albums-ws-6] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] <--- END HTTP (259-byte body)
+2019-09-14 13:17:24.091  INFO [users-ws,b0ed0f91885b2be1,b0ed0f91885b2be1,true] 18080 --- [http-nio-auto-1-exec-1] c.a.api.users.service.UsersServiceImpl   : Before calling albums Microservice.
+2019-09-14 13:17:24.093 DEBUG [users-ws,b0ed0f91885b2be1,bb5a1f83049e0bb4,true] 18080 --- [hystrix-albums-ws-7] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] ---> GET http://albums-ws/users/efa59d16-d92a-4b19-b2a2-f119d1962d5a/albums HTTP/1.1
+2019-09-14 13:17:24.093 DEBUG [users-ws,b0ed0f91885b2be1,bb5a1f83049e0bb4,true] 18080 --- [hystrix-albums-ws-7] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] ---> END HTTP (0-byte body)
+2019-09-14 13:17:25.095 ERROR [users-ws,b0ed0f91885b2be1,59cbb4b1e0143ce9,true] 18080 --- [HystrixTimer-4] c.a.a.u.d.AlbumsServiceClientFallback    : Other error took place: null
+2019-09-14 13:17:25.097  INFO [users-ws,b0ed0f91885b2be1,b0ed0f91885b2be1,true] 18080 --- [http-nio-auto-1-exec-1] c.a.api.users.service.UsersServiceImpl   : After calling albums Microservice.
+2019-09-14 13:17:25.101 DEBUG [users-ws,b0ed0f91885b2be1,bb5a1f83049e0bb4,true] 18080 --- [hystrix-albums-ws-7] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] <--- HTTP/1.1 200 (1007ms)
+2019-09-14 13:17:25.101 DEBUG [users-ws,b0ed0f91885b2be1,bb5a1f83049e0bb4,true] 18080 --- [hystrix-albums-ws-7] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] content-type: application/json;charset=UTF-8
+2019-09-14 13:17:25.101 DEBUG [users-ws,b0ed0f91885b2be1,bb5a1f83049e0bb4,true] 18080 --- [hystrix-albums-ws-7] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] date: Sat, 14 Sep 2019 11:17:25 GMT
+2019-09-14 13:17:25.103 DEBUG [users-ws,b0ed0f91885b2be1,bb5a1f83049e0bb4,true] 18080 --- [hystrix-albums-ws-7] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] transfer-encoding: chunked
+2019-09-14 13:17:25.103 DEBUG [users-ws,b0ed0f91885b2be1,bb5a1f83049e0bb4,true] 18080 --- [hystrix-albums-ws-7] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] 
+2019-09-14 13:17:25.103 DEBUG [users-ws,b0ed0f91885b2be1,bb5a1f83049e0bb4,true] 18080 --- [hystrix-albums-ws-7] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] [{"albumId":"album1Id","userId":"efa59d16-d92a-4b19-b2a2-f119d1962d5a","name":"album 1 name","description":"album 1 description"},{"albumId":"album2Id","userId":"efa59d16-d92a-4b19-b2a2-f119d1962d5a","name":"album 2 name","description":"album 2 description"}]
+2019-09-14 13:17:25.103 DEBUG [users-ws,b0ed0f91885b2be1,bb5a1f83049e0bb4,true] 18080 --- [hystrix-albums-ws-7] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] <--- END HTTP (259-byte body)
+2019-09-14 13:17:27.564  INFO [users-ws,ec4da065d0d0376c,ec4da065d0d0376c,true] 18080 --- [http-nio-auto-1-exec-3] c.a.api.users.service.UsersServiceImpl   : Before calling albums Microservice.
+2019-09-14 13:17:27.567 DEBUG [users-ws,ec4da065d0d0376c,ac5d262cab500041,true] 18080 --- [hystrix-albums-ws-8] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] ---> GET http://albums-ws/users/efa59d16-d92a-4b19-b2a2-f119d1962d5a/albums HTTP/1.1
+2019-09-14 13:17:27.569 DEBUG [users-ws,ec4da065d0d0376c,ac5d262cab500041,true] 18080 --- [hystrix-albums-ws-8] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] ---> END HTTP (0-byte body)
+2019-09-14 13:17:28.568 ERROR [users-ws,ec4da065d0d0376c,993c858b02089d79,true] 18080 --- [HystrixTimer-1] c.a.a.u.d.AlbumsServiceClientFallback    : Other error took place: null
+2019-09-14 13:17:28.570  INFO [users-ws,ec4da065d0d0376c,ec4da065d0d0376c,true] 18080 --- [http-nio-auto-1-exec-3] c.a.api.users.service.UsersServiceImpl   : After calling albums Microservice.
+2019-09-14 13:17:28.575 DEBUG [users-ws,ec4da065d0d0376c,ac5d262cab500041,true] 18080 --- [hystrix-albums-ws-8] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] <--- HTTP/1.1 200 (1005ms)
+2019-09-14 13:17:28.575 DEBUG [users-ws,ec4da065d0d0376c,ac5d262cab500041,true] 18080 --- [hystrix-albums-ws-8] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] content-type: application/json;charset=UTF-8
+2019-09-14 13:17:28.576 DEBUG [users-ws,ec4da065d0d0376c,ac5d262cab500041,true] 18080 --- [hystrix-albums-ws-8] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] date: Sat, 14 Sep 2019 11:17:28 GMT
+2019-09-14 13:17:28.578 DEBUG [users-ws,ec4da065d0d0376c,ac5d262cab500041,true] 18080 --- [hystrix-albums-ws-8] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] transfer-encoding: chunked
+2019-09-14 13:17:28.578 DEBUG [users-ws,ec4da065d0d0376c,ac5d262cab500041,true] 18080 --- [hystrix-albums-ws-8] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] 
+2019-09-14 13:17:28.578 DEBUG [users-ws,ec4da065d0d0376c,ac5d262cab500041,true] 18080 --- [hystrix-albums-ws-8] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] [{"albumId":"album1Id","userId":"efa59d16-d92a-4b19-b2a2-f119d1962d5a","name":"album 1 name","description":"album 1 description"},{"albumId":"album2Id","userId":"efa59d16-d92a-4b19-b2a2-f119d1962d5a","name":"album 2 name","description":"album 2 description"}]
+2019-09-14 13:17:28.578 DEBUG [users-ws,ec4da065d0d0376c,ac5d262cab500041,true] 18080 --- [hystrix-albums-ws-8] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] <--- END HTTP (259-byte body)
+2019-09-14 13:17:29.228  INFO [users-ws,b212627104b255a0,b212627104b255a0,true] 18080 --- [http-nio-auto-1-exec-2] c.a.api.users.service.UsersServiceImpl   : Before calling albums Microservice.
+2019-09-14 13:17:29.229 DEBUG [users-ws,b212627104b255a0,adf44bfdf9c76056,true] 18080 --- [hystrix-albums-ws-9] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] ---> GET http://albums-ws/users/efa59d16-d92a-4b19-b2a2-f119d1962d5a/albums HTTP/1.1
+2019-09-14 13:17:29.229 DEBUG [users-ws,b212627104b255a0,adf44bfdf9c76056,true] 18080 --- [hystrix-albums-ws-9] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] ---> END HTTP (0-byte body)
+2019-09-14 13:17:30.229 ERROR [users-ws,b212627104b255a0,ac00b2c06618192c,true] 18080 --- [HystrixTimer-5] c.a.a.u.d.AlbumsServiceClientFallback    : Other error took place: null
+2019-09-14 13:17:30.232  INFO [users-ws,b212627104b255a0,b212627104b255a0,true] 18080 --- [http-nio-auto-1-exec-2] c.a.api.users.service.UsersServiceImpl   : After calling albums Microservice.
+2019-09-14 13:17:30.235 DEBUG [users-ws,b212627104b255a0,adf44bfdf9c76056,true] 18080 --- [hystrix-albums-ws-9] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] <--- HTTP/1.1 200 (1005ms)
+2019-09-14 13:17:30.235 DEBUG [users-ws,b212627104b255a0,adf44bfdf9c76056,true] 18080 --- [hystrix-albums-ws-9] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] content-type: application/json;charset=UTF-8
+2019-09-14 13:17:30.235 DEBUG [users-ws,b212627104b255a0,adf44bfdf9c76056,true] 18080 --- [hystrix-albums-ws-9] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] date: Sat, 14 Sep 2019 11:17:30 GMT
+2019-09-14 13:17:30.237 DEBUG [users-ws,b212627104b255a0,adf44bfdf9c76056,true] 18080 --- [hystrix-albums-ws-9] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] transfer-encoding: chunked
+2019-09-14 13:17:30.237 DEBUG [users-ws,b212627104b255a0,adf44bfdf9c76056,true] 18080 --- [hystrix-albums-ws-9] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] 
+2019-09-14 13:17:30.238 DEBUG [users-ws,b212627104b255a0,adf44bfdf9c76056,true] 18080 --- [hystrix-albums-ws-9] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] [{"albumId":"album1Id","userId":"efa59d16-d92a-4b19-b2a2-f119d1962d5a","name":"album 1 name","description":"album 1 description"},{"albumId":"album2Id","userId":"efa59d16-d92a-4b19-b2a2-f119d1962d5a","name":"album 2 name","description":"album 2 description"}]
+2019-09-14 13:17:30.238 DEBUG [users-ws,b212627104b255a0,adf44bfdf9c76056,true] 18080 --- [hystrix-albums-ws-9] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] <--- END HTTP (259-byte body)
+2019-09-14 13:17:30.818  INFO [users-ws,d01948e5691c24b2,d01948e5691c24b2,true] 18080 --- [http-nio-auto-1-exec-4] c.a.api.users.service.UsersServiceImpl   : Before calling albums Microservice.
+2019-09-14 13:17:30.819 DEBUG [users-ws,d01948e5691c24b2,b6a936859038b947,true] 18080 --- [hystrix-albums-ws-10] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] ---> GET http://albums-ws/users/efa59d16-d92a-4b19-b2a2-f119d1962d5a/albums HTTP/1.1
+2019-09-14 13:17:30.820 DEBUG [users-ws,d01948e5691c24b2,b6a936859038b947,true] 18080 --- [hystrix-albums-ws-10] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] ---> END HTTP (0-byte body)
+2019-09-14 13:17:31.819 ERROR [users-ws,d01948e5691c24b2,02083107541e79da,true] 18080 --- [HystrixTimer-3] c.a.a.u.d.AlbumsServiceClientFallback    : Other error took place: null
+2019-09-14 13:17:31.822  INFO [users-ws,d01948e5691c24b2,d01948e5691c24b2,true] 18080 --- [http-nio-auto-1-exec-4] c.a.api.users.service.UsersServiceImpl   : After calling albums Microservice.
+2019-09-14 13:17:31.824 DEBUG [users-ws,d01948e5691c24b2,b6a936859038b947,true] 18080 --- [hystrix-albums-ws-10] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] <--- HTTP/1.1 200 (1004ms)
+2019-09-14 13:17:31.824 DEBUG [users-ws,d01948e5691c24b2,b6a936859038b947,true] 18080 --- [hystrix-albums-ws-10] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] content-type: application/json;charset=UTF-8
+2019-09-14 13:17:31.824 DEBUG [users-ws,d01948e5691c24b2,b6a936859038b947,true] 18080 --- [hystrix-albums-ws-10] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] date: Sat, 14 Sep 2019 11:17:31 GMT
+2019-09-14 13:17:31.824 DEBUG [users-ws,d01948e5691c24b2,b6a936859038b947,true] 18080 --- [hystrix-albums-ws-10] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] transfer-encoding: chunked
+2019-09-14 13:17:31.824 DEBUG [users-ws,d01948e5691c24b2,b6a936859038b947,true] 18080 --- [hystrix-albums-ws-10] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] 
+2019-09-14 13:17:31.825 DEBUG [users-ws,d01948e5691c24b2,b6a936859038b947,true] 18080 --- [hystrix-albums-ws-10] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] [{"albumId":"album1Id","userId":"efa59d16-d92a-4b19-b2a2-f119d1962d5a","name":"album 1 name","description":"album 1 description"},{"albumId":"album2Id","userId":"efa59d16-d92a-4b19-b2a2-f119d1962d5a","name":"album 2 name","description":"album 2 description"}]
+2019-09-14 13:17:31.825 DEBUG [users-ws,d01948e5691c24b2,b6a936859038b947,true] 18080 --- [hystrix-albums-ws-10] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] <--- END HTTP (259-byte body)
+2019-09-14 13:17:32.417  INFO [users-ws,dbe68743900f070b,dbe68743900f070b,true] 18080 --- [http-nio-auto-1-exec-5] c.a.api.users.service.UsersServiceImpl   : Before calling albums Microservice.
+2019-09-14 13:17:32.418 DEBUG [users-ws,dbe68743900f070b,7f886b02951ba4f9,true] 18080 --- [hystrix-albums-ws-10] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] ---> GET http://albums-ws/users/efa59d16-d92a-4b19-b2a2-f119d1962d5a/albums HTTP/1.1
+2019-09-14 13:17:32.418 DEBUG [users-ws,dbe68743900f070b,7f886b02951ba4f9,true] 18080 --- [hystrix-albums-ws-10] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] ---> END HTTP (0-byte body)
+2019-09-14 13:17:33.418 ERROR [users-ws,dbe68743900f070b,d9a28090ba03e955,true] 18080 --- [HystrixTimer-6] c.a.a.u.d.AlbumsServiceClientFallback    : Other error took place: null
+2019-09-14 13:17:33.421  INFO [users-ws,dbe68743900f070b,dbe68743900f070b,true] 18080 --- [http-nio-auto-1-exec-5] c.a.api.users.service.UsersServiceImpl   : After calling albums Microservice.
+2019-09-14 13:17:33.425 DEBUG [users-ws,dbe68743900f070b,7f886b02951ba4f9,true] 18080 --- [hystrix-albums-ws-10] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] <--- HTTP/1.1 200 (1006ms)
+2019-09-14 13:17:33.425 DEBUG [users-ws,dbe68743900f070b,7f886b02951ba4f9,true] 18080 --- [hystrix-albums-ws-10] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] content-type: application/json;charset=UTF-8
+2019-09-14 13:17:33.425 DEBUG [users-ws,dbe68743900f070b,7f886b02951ba4f9,true] 18080 --- [hystrix-albums-ws-10] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] date: Sat, 14 Sep 2019 11:17:33 GMT
+2019-09-14 13:17:33.427 DEBUG [users-ws,dbe68743900f070b,7f886b02951ba4f9,true] 18080 --- [hystrix-albums-ws-10] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] transfer-encoding: chunked
+2019-09-14 13:17:33.427 DEBUG [users-ws,dbe68743900f070b,7f886b02951ba4f9,true] 18080 --- [hystrix-albums-ws-10] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] 
+2019-09-14 13:17:33.427 DEBUG [users-ws,dbe68743900f070b,7f886b02951ba4f9,true] 18080 --- [hystrix-albums-ws-10] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] [{"albumId":"album1Id","userId":"efa59d16-d92a-4b19-b2a2-f119d1962d5a","name":"album 1 name","description":"album 1 description"},{"albumId":"album2Id","userId":"efa59d16-d92a-4b19-b2a2-f119d1962d5a","name":"album 2 name","description":"album 2 description"}]
+2019-09-14 13:17:33.427 DEBUG [users-ws,dbe68743900f070b,7f886b02951ba4f9,true] 18080 --- [hystrix-albums-ws-10] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] <--- END HTTP (259-byte body)
+2019-09-14 13:17:34.806  INFO [users-ws,22b546db70ae01cd,22b546db70ae01cd,true] 18080 --- [http-nio-auto-1-exec-6] c.a.api.users.service.UsersServiceImpl   : Before calling albums Microservice.
+2019-09-14 13:17:34.809 DEBUG [users-ws,22b546db70ae01cd,03eadc275a750b39,true] 18080 --- [hystrix-albums-ws-10] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] ---> GET http://albums-ws/users/efa59d16-d92a-4b19-b2a2-f119d1962d5a/albums HTTP/1.1
+2019-09-14 13:17:34.811 DEBUG [users-ws,22b546db70ae01cd,03eadc275a750b39,true] 18080 --- [hystrix-albums-ws-10] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] ---> END HTTP (0-byte body)
+2019-09-14 13:17:35.809 ERROR [users-ws,22b546db70ae01cd,95768f0cdf014de9,true] 18080 --- [HystrixTimer-2] c.a.a.u.d.AlbumsServiceClientFallback    : Other error took place: null
+2019-09-14 13:17:35.811  INFO [users-ws,22b546db70ae01cd,22b546db70ae01cd,true] 18080 --- [http-nio-auto-1-exec-6] c.a.api.users.service.UsersServiceImpl   : After calling albums Microservice.
+2019-09-14 13:17:35.816 DEBUG [users-ws,22b546db70ae01cd,03eadc275a750b39,true] 18080 --- [hystrix-albums-ws-10] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] <--- HTTP/1.1 200 (1004ms)
+2019-09-14 13:17:35.816 DEBUG [users-ws,22b546db70ae01cd,03eadc275a750b39,true] 18080 --- [hystrix-albums-ws-10] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] content-type: application/json;charset=UTF-8
+2019-09-14 13:17:35.816 DEBUG [users-ws,22b546db70ae01cd,03eadc275a750b39,true] 18080 --- [hystrix-albums-ws-10] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] date: Sat, 14 Sep 2019 11:17:35 GMT
+2019-09-14 13:17:35.818 DEBUG [users-ws,22b546db70ae01cd,03eadc275a750b39,true] 18080 --- [hystrix-albums-ws-10] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] transfer-encoding: chunked
+2019-09-14 13:17:35.818 DEBUG [users-ws,22b546db70ae01cd,03eadc275a750b39,true] 18080 --- [hystrix-albums-ws-10] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] 
+2019-09-14 13:17:35.818 DEBUG [users-ws,22b546db70ae01cd,03eadc275a750b39,true] 18080 --- [hystrix-albums-ws-10] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] [{"albumId":"album1Id","userId":"efa59d16-d92a-4b19-b2a2-f119d1962d5a","name":"album 1 name","description":"album 1 description"},{"albumId":"album2Id","userId":"efa59d16-d92a-4b19-b2a2-f119d1962d5a","name":"album 2 name","description":"album 2 description"}]
+2019-09-14 13:17:35.818 DEBUG [users-ws,22b546db70ae01cd,03eadc275a750b39,true] 18080 --- [hystrix-albums-ws-10] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] <--- END HTTP (259-byte body)
+2019-09-14 13:17:43.416  INFO [users-ws,a99f4e75b82fd791,a99f4e75b82fd791,true] 18080 --- [http-nio-auto-1-exec-7] c.a.api.users.service.UsersServiceImpl   : Before calling albums Microservice.
+2019-09-14 13:17:43.419 DEBUG [users-ws,a99f4e75b82fd791,009aa66d81f18f44,true] 18080 --- [hystrix-albums-ws-10] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] ---> GET http://albums-ws/users/efa59d16-d92a-4b19-b2a2-f119d1962d5a/albums HTTP/1.1
+2019-09-14 13:17:43.419 DEBUG [users-ws,a99f4e75b82fd791,009aa66d81f18f44,true] 18080 --- [hystrix-albums-ws-10] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] ---> END HTTP (0-byte body)
+2019-09-14 13:17:43.424 DEBUG [users-ws,a99f4e75b82fd791,009aa66d81f18f44,true] 18080 --- [hystrix-albums-ws-10] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] <--- HTTP/1.1 200 (4ms)
+2019-09-14 13:17:43.426 DEBUG [users-ws,a99f4e75b82fd791,009aa66d81f18f44,true] 18080 --- [hystrix-albums-ws-10] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] content-type: application/json;charset=UTF-8
+2019-09-14 13:17:43.426 DEBUG [users-ws,a99f4e75b82fd791,009aa66d81f18f44,true] 18080 --- [hystrix-albums-ws-10] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] date: Sat, 14 Sep 2019 11:17:43 GMT
+2019-09-14 13:17:43.426 DEBUG [users-ws,a99f4e75b82fd791,009aa66d81f18f44,true] 18080 --- [hystrix-albums-ws-10] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] transfer-encoding: chunked
+2019-09-14 13:17:43.426 DEBUG [users-ws,a99f4e75b82fd791,009aa66d81f18f44,true] 18080 --- [hystrix-albums-ws-10] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] 
+2019-09-14 13:17:43.428 DEBUG [users-ws,a99f4e75b82fd791,009aa66d81f18f44,true] 18080 --- [hystrix-albums-ws-10] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] [{"albumId":"album1Id","userId":"efa59d16-d92a-4b19-b2a2-f119d1962d5a","name":"album 1 name","description":"album 1 description"},{"albumId":"album2Id","userId":"efa59d16-d92a-4b19-b2a2-f119d1962d5a","name":"album 2 name","description":"album 2 description"}]
+2019-09-14 13:17:43.429 DEBUG [users-ws,a99f4e75b82fd791,009aa66d81f18f44,true] 18080 --- [hystrix-albums-ws-10] c.a.api.users.data.AlbumsServiceClient   : [AlbumsServiceClient#getAlbums] <--- END HTTP (259-byte body)
+2019-09-14 13:17:43.429  INFO [users-ws,a99f4e75b82fd791,a99f4e75b82fd791,true] 18080 --- [http-nio-auto-1-exec-7] c.a.api.users.service.UsersServiceImpl   : After calling albums Microservice.
+2019-09-14 13:20:31.769  INFO [users-ws,,,] 18080 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-09-14 13:25:31.774  INFO [users-ws,,,] 18080 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-09-14 13:30:31.777  INFO [users-ws,,,] 18080 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-09-14 13:35:31.780  INFO [users-ws,,,] 18080 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-09-14 13:40:31.782  INFO [users-ws,,,] 18080 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-09-14 13:45:31.785  INFO [users-ws,,,] 18080 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-09-14 13:50:31.790  INFO [users-ws,,,] 18080 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-09-14 13:55:31.793  INFO [users-ws,,,] 18080 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-09-14 14:00:31.797  INFO [users-ws,,,] 18080 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-09-14 14:05:31.801  INFO [users-ws,,,] 18080 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-09-14 14:10:31.803  INFO [users-ws,,,] 18080 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-09-14 14:15:31.807  INFO [users-ws,,,] 18080 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-09-14 14:20:31.811  INFO [users-ws,,,] 18080 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-09-14 14:25:31.814  INFO [users-ws,,,] 18080 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-09-14 14:30:31.818  INFO [users-ws,,,] 18080 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-09-14 14:35:31.821  INFO [users-ws,,,] 18080 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-09-14 14:40:31.824  INFO [users-ws,,,] 18080 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-09-14 14:45:31.827  INFO [users-ws,,,] 18080 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-09-14 14:50:31.830  INFO [users-ws,,,] 18080 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-09-14 14:55:31.833  INFO [users-ws,,,] 18080 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
